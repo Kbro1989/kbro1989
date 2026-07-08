@@ -123,6 +123,22 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 
 ---
 
+## 📁 Workspace Footprint
+
+| Folder | Size | Size on disk | Files / Folders | Created |
+|---|---|---|---|---|
+| `Desktop` | 28.4 GB | 29.1 GB | 437,966 / 4,520 | 2026-04-25 |
+| `Megatron-LM-review` | 8.83 GB | 8.91 GB | 40,511 / 5,269 | 2026-07-05 |
+| `hermes-agent` | 2.52 GB | 2.73 GB | 140,427 / 10,324 | 2026-06-21 |
+| `openjarvis-globe-worker` | 193 MB | 196 MB | 1,842 / 289 | 2026-07-07 |
+| `kimi` | 336 MB | 336 MB | 50 / 1 | 2026-06-06 |
+| `MHD-Propulsion-Controller-Simulator-main` | 178 MB | 192 MB | 10,222 / 911 | 2026-06-07 |
+| `POG2_ModelRolodex_Workflow` | 343 KB | 384 KB | 16 / 14 | 2026-07-03 |
+| `KING-WEN-I-CHING-IMMUTABLE-TABLES` | 42.0 MB | 42.9 MB | 531 / 224 | 2026-07-03 |
+| `pog2-jarvis-bridge` | 5.07 KB | 20.0 KB | 5 / 2 | 2026-07-07 |
+
+---
+
 ### 🌿 Willow AI / Game Dev *(4 repos)*
 
 | Repo | Lang | What It Is |
