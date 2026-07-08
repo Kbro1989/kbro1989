@@ -224,3 +224,42 @@ Built on **Cloudflare**. Licensed under **MIT v1.1.0** where applicable.
 *"The same hexagram state machine runs in TypeScript on Cloudflare and in VHDL on a Zynq UltraScale+."*
 
 </div>
+
+## 🚀 Deployed Apps → Repository Map
+
+| Deployed App | Type | Repository |
+|---|---|---|
+| `jarvis-router` | Worker | `OpenJarvis` |
+| `openjarvis-kingwen-globe` | Worker | `OpenJarvis` |
+| `kingwen-oracle` | Worker | `I-Ching_Oracle` / `KING-WEN-I-CHING-IMMUTABLE-TABLES` |
+| `antigravity-bridge-relay` | Worker | `open-design` / `Antigravity-Ultimate` |
+| `willow-ai-coding-playground` | Pages | `Willow-AI-Coding-Playground` |
+| `rscaievolution-png` | Pages | `rscaievolution-png` |
+| `rsc-globe1-pure` | Pages | `rsc-globe1-pure` |
+| `rsc-dashboard` | Pages | `rsc-dashboard` |
+| `rs3-ai-api` | Pages | `Rs3-ai-api` |
+| `mhdpropulsioncontrollersimulator` | Worker | `MHD-Propulsion-Controller-Simulator` |
+| `d-sovereign` | Pages | `D-sovereign-` |
+| `elderscape-modeleditor` | Worker | `elderscape-modeleditor` |
+| `color-by-number` | Pages | `Color-by-number` |
+| `astro-blog-starter-template` | Pages | `astro-blog-starter-template` |
+| `bathospire-professor` | Pages | `Bathospire-Professor-` |
+| `alt-1-helper-bridge` | Pages | `Alt-1_Helper-Bridge` |
+| `ai-game-studio` | Pages | `ai-game-studio` |
+| `openrsc-vinilla` | Pages | `openrsc-vinilla` |
+| `ichingoracle` | Worker | `I-Ching_Oracle` |
+| `rsmv` | Pages | `rsmv` |
+| `rsmv1` | Pages | `rsmv` |
+| `pog2` | Pages | `POG2` |
+| `cloudflare-code-agent` | Worker | `cloudflare-code-agent` |
+| `multiplayer-globe-template` | Pages | `multiplayer-globe-template` |
+| `willow-ai-game-dev` | Pages | `willow-ai-game-dev` |
+| `willow-hybrid-game-dev` | Pages | `willow-ai-game-dev-hybrid` |
+| `elderscape` | Pages | `Elder-Scape` / `ElderScape` |
+| `hello-ai` | Worker | `hello-ai` |
+| `hello-ai-worker-rsmv` | Worker | `hello-ai-worker-rsmv` |
+| `helloaiworkerrsmv` | Worker | `hello-ai-worker-rsmv` |
+| `hello-ai-production` | Worker | `hello-ai` |
+| `pick-of-gods` | Worker | `pick-of-gods` |
+| `to-do-list-kv-template` | Worker | `to-do-list-kv-template-123` |
+| `rs3-ai-bot-api` | Worker | `rs3-ai-bot-api` |
