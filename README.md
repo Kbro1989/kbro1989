@@ -81,7 +81,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [rscaievolution-png](https://github.com/Kbro1989/rscaievolution-png) | JavaScript | RSC AI evolution state visualization |
 | [rsc-dashboard](https://github.com/Kbro1989/rsc-dashboard) | HTML | OpenRSC server monitoring dashboard |
 | [hello-ai-worker-rsmv](https://github.com/Kbro1989/hello-ai-worker-rsmv) | — | RSMV 3D model builder-editor w/ Cloudflare AI |
-| [rsmv](https://github.com/Kbro1989/rsmv) *(fork)* | TypeScript | Fork of skillbert/rsmv — RS3 cache tools & model extractor (Classic / Present / Ternary) |
+| [rsmv](https://github.com/Kbro1989/rsmv) | TypeScript | Fork of skillbert/rsmv — RS3 cache tools & model extractor (Classic / Present / Ternary) |
 | [elderscape-modeleditor](https://github.com/Kbro1989/elderscape-modeleditor) | HTML | RuneScape model editor |
 | [eldesrscape-modelviewer](https://github.com/Kbro1989/eldesrscape-modelviewer) | — | RSMV temporal-mode viewer |
 | [Elder-Scape](https://github.com/Kbro1989/Elder-Scape) | HTML | Game builder w/ Cloudflare & AI |
