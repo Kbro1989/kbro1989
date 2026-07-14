@@ -221,6 +221,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 - **OpenRSC** runs on Cloudflare Durable Objects with authentic 640ms tick loops and KV player saves.
 - **MHD controller** targets Zynq UltraScale+ ZU7EV with 7 HDL sub-modules including `HexagramStateMachine` and `GhostSplatPredictor` in silicon.
 - **Freemium model** — all 27 limbs work across all tiers. Trauma-informed design from lived experience.
+- **Hermes Agent** is the sovereign runtime shell for this stack: same program exposed through localhost CLI, desktop/TUI, and gateway/dashboard service points; slash-command driven; kanban and cron run as continuous embedded gateway loops with current skill cards as the agent workforce.
 
 ---
 
