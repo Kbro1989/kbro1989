@@ -23,7 +23,7 @@
 
 I don't build projects. I build **interlocking technological ecosystems** that happen to look like projects from the outside.
 
-This profile contains **62 repositories** across **14 converged professional domains**. The same hexagram state machine runs in TypeScript on Cloudflare and in VHDL on a Zynq UltraScale+. The same 640ms tick drives RSC nostalgia and RS3 prediction. The same quest corpus trains synthetic agents and teaches humans.
+This profile contains **82 repositories** across **14 converged professional domains**. The same hexagram state machine runs in TypeScript on Cloudflare and in VHDL on a Zynq UltraScale+. The same 640ms tick drives RSC nostalgia and RS3 prediction. The same quest corpus trains synthetic agents and teaches humans.
 
 That convergence is what makes it a **Sovereign Stack**, not a resume.
 
@@ -109,7 +109,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 
 ---
 
-### 🤖 AI / Agent Infrastructure *(11 repos)*
+### 🤖 AI / Agent Infrastructure *(15 repos)*
 
 | Repo | Lang | What It Is |
 |------|------|------------|
@@ -124,6 +124,10 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [ai-sec-resources](https://github.com/Kbro1989/ai-sec-resources) *(fork)* | HTML | AI Security Resources Hub (Arcanum-Sec) |
 | [gibberlink](https://github.com/Kbro1989/gibberlink) *(fork)* | TypeScript | AI-to-AI FSK sound protocol (PennyroyalTea/gibberlink); wired into `kingwen_game_tick.py`; MIT |
 | [kimi-code](https://github.com/Kbro1989/kimi-code) *(fork)* | TypeScript | Kimi Code CLI — next-gen agent coding; MIT |
+| [voicebox](https://github.com/Kbro1989/voicebox) *(fork)* | JavaScript | Open-source AI voice studio; clone, dictate, create; MIT |
+| [kimi-cli](https://github.com/Kbro1989/kimi-cli) *(fork)* | Python | Kimi Code CLI agent monorepo; Apache 2.0 |
+| [Kimi-K2](https://github.com/Kbro1989/Kimi-K2) *(fork)* | Other | Kimi K2 large language model series (MoonshotAI) |
+| [Kimi-K2.5](https://github.com/Kbro1989/Kimi-K2.5) *(fork)* | Other | Kimi K2.5 model weights and release tree (MoonshotAI) |
 
 ---
 
@@ -176,7 +180,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 
 ---
 
-### ☁️ Cloudflare / Templates *(6 repos)*
+### ☁️ Cloudflare / Templates *(7 repos)*
 
 | Repo | Lang | What It Is |
 |------|------|------------|
@@ -186,10 +190,11 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [astro-blog-starter-template](https://github.com/Kbro1989/astro-blog-starter-template) | Astro | Astro blog starter |
 | [Kbro1989.github.io](https://github.com/Kbro1989/Kbro1989.github.io) | — | GitHub Pages site *(The Unlicense)* |
 | [pick-of-gods](https://github.com/Kbro1989/pick-of-gods) | JavaScript | Org landing / utility |
+| [kbro1989](https://github.com/Kbro1989/kbro1989) | — | Profile & sovereign stack repository map |
 
 ---
 
-### 🔀 Forks / External Tools *(13 repos)*
+### 🔀 Forks / External Tools *(12 repos)*
 
 | Repo | Lang | Source |
 |------|------|--------|
@@ -205,7 +210,6 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [kosong](https://github.com/Kbro1989/kosong) *(fork)* | — | MoonshotAI/kosong — LLM abstraction layer for modern AI agents |
 | [kingwenfinance](https://github.com/Kbro1989/kingwenfinance) *(fork)* | Python | pick-of-gods/kingwenfinance — Yahoo! Finance market data; Apache 2.0 |
 | [K2-Vendor-Verifier](https://github.com/Kbro1989/K2-Vendor-Verifier) *(fork)* | Python | MoonshotAI/K2-Vendor-Verifier — verify Kimi K2 API vendor precision |
-| [kingwenfinance](https://github.com/Kbro1989/kingwenfinance) *(fork)* | Python | pick-of-gods/kingwenfinance — Yahoo! Finance data downloader; cloned locally |
 
 ---
 
@@ -217,7 +221,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 
 ---
 
-### 🧰 NorfolkNChance Forks *(8 repos)*
+### 🧰 NorfolkNChance Forks *(9 repos)*
 > Secondary identity forks integrated into the sovereign stack toolchain.
 
 | Repo | Lang | What It Is |
@@ -230,6 +234,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [TES5Edit](https://github.com/Kbro1989/TES5Edit) *(fork)* | Pascal | xEdit — Skyrim mod editing tool; Mozilla Public License 2.0 |
 | [mesop-app](https://github.com/Kbro1989/mesop-app) *(fork)* | Python | LLM Chat App using Google Mesop |
 | [personal-website](https://github.com/Kbro1989/personal-website) *(fork)* | Python | Sample personal site; GPL v3 |
+| [NorfolkNChance.github.io](https://github.com/Kbro1989/NorfolkNChance.github.io) *(fork)* | HTML | GitHub Pages site |
 
 ---
 
