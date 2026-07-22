@@ -11,7 +11,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7167--420X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-7167-420X)
 
 [![MIT v1.1.0](https://img.shields.io/badge/License-MIT_v1.1.0-blue?style=flat-square)](LICENSE)
-[![Repos](https://img.shields.io/badge/repositories-62-6e40c9?style=flat-square)]()
+[![Repos](https://img.shields.io/badge/repositories-82-6e40c9?style=flat-square)]()
 [![Domains](https://img.shields.io/badge/Domains-14-00c7b7?style=flat-square)]()
 [![Latency](https://img.shields.io/badge/Edge_Latency-0.02ms-00e676?style=flat-square)]()
 
@@ -96,7 +96,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 
 ---
 
-### ☯️ I Ching / Oracle / Symbolic Systems *(3 repos)*
+### ☯️ I Ching / Oracle / Symbolic Systems *(5 repos)*
 > Philosophy as executable architecture.
 
 | Repo | Lang | What It Is |
@@ -104,10 +104,12 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [KING-WEN-I-CHING-IMMUTABLE-TABLES](https://github.com/Kbro1989/KING-WEN-I-CHING-IMMUTABLE-TABLES) | Python | King Wen sequence lookup tables — 64 hexagrams × 6 yao |
 | [I-Ching_Oracle](https://github.com/Kbro1989/I-Ching_Oracle) | TypeScript | I Ching Oracle system — temporal routing, hexagram state machine, 729→64 path resolution |
 | [Bathospire-Professor-](https://github.com/Kbro1989/Bathospire-Professor-) | TypeScript | Cursive learning / pedagogy tool |
+| [king-wen-legal](https://github.com/Kbro1989/king-wen-legal) | HTML | King Wen IP / legal documentation layer |
+| [KW-K2](https://github.com/Kbro1989/KW-K2) | — | King Wen × Kimi-K2 integration (purpose TBD) |
 
 ---
 
-### 🤖 AI / Agent Infrastructure *(9 repos)*
+### 🤖 AI / Agent Infrastructure *(11 repos)*
 
 | Repo | Lang | What It Is |
 |------|------|------------|
@@ -120,6 +122,8 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [Megatron-LM](https://github.com/Kbro1989/Megatron-LM) *(fork)* | Python | NVIDIA transformer training at scale |
 | [hermes-agent](https://github.com/Kbro1989/hermes-agent) *(fork)* | Python | NousResearch Hermes agent |
 | [ai-sec-resources](https://github.com/Kbro1989/ai-sec-resources) *(fork)* | HTML | AI Security Resources Hub (Arcanum-Sec) |
+| [gibberlink](https://github.com/Kbro1989/gibberlink) *(fork)* | TypeScript | AI-to-AI FSK sound protocol (PennyroyalTea/gibberlink); wired into `kingwen_game_tick.py`; MIT |
+| [kimi-code](https://github.com/Kbro1989/kimi-code) *(fork)* | TypeScript | Kimi Code CLI — next-gen agent coding; MIT |
 
 ---
 
@@ -185,7 +189,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 
 ---
 
-### 🔀 Forks / External Tools *(9 repos)*
+### 🔀 Forks / External Tools *(13 repos)*
 
 | Repo | Lang | Source |
 |------|------|--------|
@@ -198,6 +202,10 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | [rs3-ai-bot-api](https://github.com/Kbro1989/rs3-ai-bot-api) *(fork)* | TypeScript | pick-of-gods/rs3-ai-bot-api |
 | [ai-chat](https://github.com/Kbro1989/ai-chat) *(fork)* | TypeScript | pick-of-gods/ai-chat |
 | [llm-chat-app-template](https://github.com/Kbro1989/llm-chat-app-template) *(fork)* | JavaScript | pick-of-gods/llm-chat-app-template |
+| [kosong](https://github.com/Kbro1989/kosong) *(fork)* | — | MoonshotAI/kosong — LLM abstraction layer for modern AI agents |
+| [kingwenfinance](https://github.com/Kbro1989/kingwenfinance) *(fork)* | Python | pick-of-gods/kingwenfinance — Yahoo! Finance market data; Apache 2.0 |
+| [K2-Vendor-Verifier](https://github.com/Kbro1989/K2-Vendor-Verifier) *(fork)* | Python | MoonshotAI/K2-Vendor-Verifier — verify Kimi K2 API vendor precision |
+| [kingwenfinance](https://github.com/Kbro1989/kingwenfinance) *(fork)* | Python | pick-of-gods/kingwenfinance — Yahoo! Finance data downloader; cloned locally |
 
 ---
 
@@ -206,6 +214,22 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | Repo | Lang | What It Is |
 |------|------|------------|
 | [Antigravity-Ultimate](https://github.com/Kbro1989/Antigravity-Ultimate) | JavaScript | Physics / simulation exploration |
+
+---
+
+### 🧰 NorfolkNChance Forks *(8 repos)*
+> Secondary identity forks integrated into the sovereign stack toolchain.
+
+| Repo | Lang | What It Is |
+|------|------|------------|
+| [runelite](https://github.com/Kbro1989/runelite) *(fork)* | Java | Open source OSRS client — cache decoder + ID generators; BSD 2-Clause |
+| [cinder](https://github.com/Kbro1989/cinder) *(fork)* | TypeScript | Note-taking and todo list manager; MIT |
+| [octobuild](https://github.com/Kbro1989/octobuild) *(fork)* | Rust | Compiler cache for Unreal Engine; MIT |
+| [lore-desktop](https://github.com/Kbro1989/lore-desktop) *(fork)* | Rust | Desktop application |
+| [world-of-claudecraft](https://github.com/Kbro1989/world-of-claudecraft) *(fork)* | TypeScript | MIT |
+| [TES5Edit](https://github.com/Kbro1989/TES5Edit) *(fork)* | Pascal | xEdit — Skyrim mod editing tool; Mozilla Public License 2.0 |
+| [mesop-app](https://github.com/Kbro1989/mesop-app) *(fork)* | Python | LLM Chat App using Google Mesop |
+| [personal-website](https://github.com/Kbro1989/personal-website) *(fork)* | Python | Sample personal site; GPL v3 |
 
 ---
 
@@ -222,6 +246,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 - **MHD controller** targets Zynq UltraScale+ ZU7EV with 7 HDL sub-modules including `HexagramStateMachine` and `GhostSplatPredictor` in silicon.
 - **Freemium model** — all 27 limbs work across all tiers. Trauma-informed design from lived experience.
 - **Hermes Agent** is the sovereign runtime shell for this stack: same program exposed through localhost CLI, desktop/TUI, and gateway/dashboard service points; slash-command driven; kanban and cron run as continuous embedded gateway loops with current skill cards as the agent workforce.
+- **Repository footprint** is **82 public GitHub repos** (live count 2026-07-22), with additional local-only workspaces under `~/Desktop` and `C:/Users/krist/Desktop` not reflected in public counts.
 
 ---
 
