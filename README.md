@@ -38,7 +38,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 | 1 | **Edge-Native Distributed Systems** | Cloudflare Workers, Durable Objects, KV, D1, R2, WebSocket mesh, OpenRSC adapter |
 | 2 | **AI / Cognitive Systems Architecture** | GhostSplat, HexagramManager, TernaryRouter, CNSGodheadPulseVolley, PlayerAgent, ModelRolodex |
 | 3 | **Real-Time Multiplayer Systems** | 640ms tick, state sync, POG2WorldDO, collision, region updates |
-| 4 | **Reverse Engineering / Cache Forensics** | NXTStringForensics, CacheForensicsLimb, opcode versioning, 229k cache entities |
+| 4 | **Reverse Engineering / Cache Forensics** | NXTStringForensics, CacheForensicsLimb, opcode versioning, Historic Rsc - Rsmv Preservation (compliance) |
 | 5 | **Game Engine Programming** | RSMV, ServerLogicRegistry, quest engine, ability systems, AdrenalineStateMachine |
 | 6 | **Computer Graphics / 3D Pipelines** | Three.js, WebGL, PBR, kit 31149, AvatarComposer, identity kits |
 | 7 | **Computer Vision / Image Processing** | K-means, segmentation, creative pipelines |
@@ -61,7 +61,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 |------|------|------------|
 | [POG2](https://github.com/Kbro1989/POG2) | HTML | Main platform repo (docs / site layer) |
 | [Pog2-Core](https://github.com/Kbro1989/Pog2-Core) | TypeScript | Core runtime — 27-limb neural pipeline substrate |
-| [Pog2-Data](https://github.com/Kbro1989/Pog2-Data) | — | Cache entity ingestion — 229k entities (32,512 NPCs · 59,984 items · 136k objects) |
+| [Pog2-Data](https://github.com/Kbro1989/Pog2-Data) | — | Data derivative entity ingestion |
 | [Pog2-Atlas](https://github.com/Kbro1989/Pog2-Atlas) | — | Spatial world map & region management |
 | [Pog2-Pedagogy](https://github.com/Kbro1989/Pog2-Pedagogy) | — | 3,516 quest entries + skill tracking + learning DB |
 | [Pog2-Guttenberg-](https://github.com/Kbro1989/Pog2-Guttenberg-) | — | GutenbergLimb — literary ingestion & narrative generation |
@@ -72,7 +72,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 ---
 
 ### ⚔️ RuneScape Ecosystem *(17 repos)*
-> Reverse engineering, cache archaeology, and live server infrastructure.
+> Reverse engineering, cache archaeology, and live server infrastructure, preservation projects and tooling.
 
 | Repo | Lang | What It Is |
 |------|------|------------|
@@ -241,7 +241,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 ## ✅ Verified Facts *(Not Hype)*
 
 - **POG2** is a 27-limb distributed neural pipeline running on Cloudflare edge infrastructure.
-- **229,000** cache entities ingested from RuneScape cache revision 221+ with versioned opcode rules.
+- **Versioned** cache entities ingested from RuneScape cache revision 221+ with versioned opcode rules.
 - **3,516** quest entries with full prerequisite chains, skill requirements, and progression states.
 - **640ms metabolic tick** — same rhythm as RSC, upgraded from state photograph to intent transcriptome.
 - **HexagramManager** implements 64 I Ching states with temporal dimensions (Past / Present / Future) and 729-path ternary routing.
