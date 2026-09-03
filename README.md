@@ -222,7 +222,7 @@ That convergence is what makes it a **Sovereign Stack**, not a resume.
 ---
 
 ### 🧰 NorfolkNChance Forks *(9 repos)*
-> Secondary identity forks integrated into the sovereign stack toolchain.
+> Secondary forks integrated into the sovereign stack toolchain.
 
 | Repo | Lang | What It Is |
 |------|------|------------|
