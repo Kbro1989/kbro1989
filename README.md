@@ -662,7 +662,7 @@ The evidence matrix classifies all engineering records across four distinct epis
 | `rs3-ai-bot-api` | Worker | `rs3-ai-bot-api` |
 
 ---
-</details></summary>
+<details><summary>
 ## GRAPH FOOTER — COMPLETE INVENTORY OF 188 REPOSITORIES
 ====================================================================================================
 
