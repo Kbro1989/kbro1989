@@ -9,9 +9,9 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7167--420X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-7167-420X)
 
 [![MIT v1.1.0](https://img.shields.io/badge/License-MIT_v1.1.0-blue?style=flat-square)](LICENSE)
-[![Repos](https://img.shields.io/badge/repositories-62-6e40c9?style=flat-square)]()
+[![Repos](https://img.shields.io/badge/repositories-188-6e40c9?style=flat-square)]()
 [![Domains](https://img.shields.io/badge/Domains-14-00c7b7?style=flat-square)]()
-[![Latency](https://img.shields.io/badge/Edge_Latency-0.02ms-00e676?style=flat-square)]()
+[![Domains](https://img.shields.io/badge/Domains-14-00c7b7?style=flat-square)](#domains)
 
 **Independent Systems Engineer | Computational Design & Reverse Engineering | AI and Distributed Infrastructure**
 
@@ -45,6 +45,23 @@ The unifying theme is **systems integration through understanding fundamentals**
 I am self-taught, project-driven, and have spent more than 20 years learning across technical disciplines. My portfolio reflects that breadth: original projects, upstream contributions, research explorations, forks, and experimental implementations.
 
 ---
+
+## 🗺️ Engineering at a Glance
+
+Quick navigation to the main disciplines and their primary repositories.
+
+| Discipline | Primary Repositories |
+| --- | --- |
+| Reverse engineering | [openrsc-vinilla](https://github.com/Kbro1989/openrsc-vinilla), [rsmv](https://github.com/Kbro1989/rsmv), [Pog2-Data](https://github.com/Kbro1989/Pog2-Data) |
+| Scientific computing | [Upgraded-Depth-Anything-V2](https://github.com/MackinationsAi/Upgraded-Depth-Anything-V2), [quantum-simulation](https://github.com/rasidi3112/quantum-simulation) |
+| Computational mathematics | [KING-WEN-I-CHING-IMMUTABLE-TABLES](https://github.com/Kbro1989/KING-WEN-I-CHING-IMMUTABLE-TABLES) |
+| Distributed infrastructure | [OpenJarvis](https://github.com/Kbro1989/OpenJarvis), [cloudflare-code-agent](https://github.com/Kbro1989/cloudflare-code-agent), [CfOllama](https://github.com/Kbro1989/CfOllama) |
+| AI architecture | [OpenJarvis](https://github.com/Kbro1989/OpenJarvis), [hermes-agent](https://github.com/Kbro1989/hermes-agent), [Megatron-LM](https://github.com/Kbro1989/Megatron-LM) |
+| Embedded systems | [MHD-Propulsion-Controller-Simulator](https://github.com/Kbro1989/MHD-Propulsion-Controller-Simulator) |
+| Symbolic computation | [I-Ching_Oracle](https://github.com/Kbro1989/I-Ching_Oracle), [KING-WEN-I-CHING-IMMUTABLE-TABLES](https://github.com/Kbro1989/KING-WEN-I-CHING-IMMUTABLE-TABLES) |
+
+---
+
 
 ## 🏗️ POG2 — The Sovereign Systems Platform
 
@@ -596,7 +613,7 @@ Built on **Cloudflare**. Licensed under **MIT v1.1.0** where applicable.
 
 ## 📊 Technical Evidence & Audit Index
 
-For a full breakdown of subsystems, verification statuses, numerical results, and provenance, refer to the [Engineering Evidence Matrix](file:///C:/Users/krist/Desktop/kbro1989/EVIDENCE_MATRIX.md) (`EVIDENCE_MATRIX.md`).
+For a full breakdown of subsystems, verification statuses, numerical results, and provenance, refer to the [Engineering Evidence Matrix](https://github.com/Kbro1989/kbro1989/blob/main/EVIDENCE_MATRIX.md) (`EVIDENCE_MATRIX.md`).
 
 The evidence matrix classifies all engineering records across four distinct epistemic tiers:
 - **Measured Result:** Empirically benchmarked, logged, and reproducible numerical outcomes.
@@ -609,7 +626,7 @@ The evidence matrix classifies all engineering records across four distinct epis
 
 | Deployed App | Type | Repository |
 |---|---|---|
-| Development organization |
+| Development organization | Organization | Development (free plan) |
 | `jarvis-router` | Worker | `OpenJarvis` |
 | `openjarvis-kingwen-globe` | Worker | `OpenJarvis` |
 | `kingwen-oracle` | Worker | `I-Ching_Oracle` / `KING-WEN-I-CHING-IMMUTABLE-TABLES` |
