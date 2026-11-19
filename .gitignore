@@ -4100,3 +4100,5 @@ node_modules/xmlbuilder2/node_modules/js-yaml/lib/type/seq.js
 node_modules/xmlbuilder2/node_modules/js-yaml/lib/type/set.js
 node_modules/xmlbuilder2/node_modules/js-yaml/lib/type/str.js
 node_modules/xmlbuilder2/node_modules/js-yaml/lib/type/timestamp.js
+node_modules/
+patch_graph_footer.py

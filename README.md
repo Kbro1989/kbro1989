@@ -1,5 +1,18 @@
 # ⚡ Pick of Gods · Kbro1989
 
+**Self-taught systems archaeologist. 20+ years of learning everything. Builder of thinking machines.**
+
+[![Site](https://img.shields.io/badge/🌐_Site-POG2_Dev-0a0a0a?style=for-the-badge&logo=cloudflare&logoColor=F6821F)](https://pog2.dev)
+[![YouTube](https://img.shields.io/badge/YouTube-@kbrops-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kbrops)
+[![Patreon](https://img.shields.io/badge/Patreon-PickofGods-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/PickofGods)
+[![X](https://img.shields.io/badge/X-@browder__ke33437-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/browder_ke33437)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7167--420X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-7167-420X)
+
+[![MIT v1.1.0](https://img.shields.io/badge/License-MIT_v1.1.0-blue?style=flat-square)](LICENSE)
+[![Repos](https://img.shields.io/badge/repositories-62-6e40c9?style=flat-square)]()
+[![Domains](https://img.shields.io/badge/Domains-14-00c7b7?style=flat-square)]()
+[![Latency](https://img.shields.io/badge/Edge_Latency-0.02ms-00e676?style=flat-square)]()
+
 **Independent Systems Engineer | Computational Design & Reverse Engineering | AI and Distributed Infrastructure**
 
 I reverse-engineer, design, and build software systems across AI, distributed infrastructure, scientific computing, interactive environments, and embedded systems.
@@ -480,10 +493,18 @@ I am particularly interested in the distinction between:
 
 The objective is to make the same broader system usable across different execution environments without assuming that every workload belongs in the cloud.
 
+### Deployment platforms
+
+| Platform | Role |
+| --- | --- |
+| Cloudflare Workers / Pages | Edge compute, KV, D1, Durable Objects, R2 |
+| Fly.io | Container deployment for stateful services |
+| Local runtime | Sovereign execution, local models, development workflows |
+
 ### Selected deployed applications
 
 | Application | Platform |
-| --- | --- |
+| --- | 
 | [POG2](https://pog2.dev) | Main platform |
 | [rsc-dashboard](https://rsc-dashboard.pages.dev/) | Pages |
 | [rsc-authentic-client](https://rsc-authentic-client.pages.dev/) | Worker endpoint |
@@ -498,10 +519,9 @@ The objective is to make the same broader system usable across different executi
 
 Repository inventory snapshot: November 18, 2026. Counts are a point-in-time inventory, not a measure of code quality or contribution size.
 
-
 | Metric | Count |
 | --- | --- |
-| Total repositories | 188 |
+| Total repositories | 62 |
 | Source repositories | 57 |
 | Forked repositories | 131 |
 | Principal technical areas | 14 |
@@ -548,12 +568,22 @@ I am interested in systems that can be inspected, tested, extended, and understo
 | Organization | Purpose |
 | --- | --- |
 | [Pick of Gods](https://github.com/pick-of-gods) | Original POG infrastructure and projects |
-| [Pick of Gods Dev](https://github.com/Pick-of-Gods-Dev) | Development organization |
 
 ---
 
 
 ### Build systems that understand their own structure.
+
+<div align="center">
+
+Built on **Cloudflare**. Licensed under **MIT v1.1.0** where applicable.
+
+*"The same hexagram state machine runs in TypeScript on Cloudflare and in VHDL on a Zynq UltraScale+."*
+
+</div>
+
+---
+
 
 **Pick of Gods · Kbro1989**
 
@@ -575,8 +605,48 @@ The evidence matrix classifies all engineering records across four distinct epis
 - **Experimental Target:** Forward-looking research hypotheses and prototype target hardware profiles.
 
 ---
+## 🚀 Deployed Apps → Repository Map
 
-## GRAPH FOOTER — COMPLETE INVENTORY OF 188 REPOSITORIES (57 SOURCE + 131 FORKED)
+| Deployed App | Type | Repository |
+|---|---|---|
+| Development organization |
+| `jarvis-router` | Worker | `OpenJarvis` |
+| `openjarvis-kingwen-globe` | Worker | `OpenJarvis` |
+| `kingwen-oracle` | Worker | `I-Ching_Oracle` / `KING-WEN-I-CHING-IMMUTABLE-TABLES` |
+| `antigravity-bridge-relay` | Worker | `open-design` / `Antigravity-Ultimate` |
+| `willow-ai-coding-playground` | Pages | `Willow-AI-Coding-Playground` |
+| `rscaievolution-png` | Pages | `rscaievolution-png` |
+| `rsc-globe1-pure` | Pages | `rsc-globe1-pure` |
+| `rsc-dashboard` | Pages | `rsc-dashboard` |
+| `rs3-ai-api` | Pages | `Rs3-ai-api` |
+| `mhdpropulsioncontrollersimulator` | Worker | `MHD-Propulsion-Controller-Simulator` |
+| `d-sovereign` | Pages | `D-sovereign-` |
+| `elderscape-modeleditor` | Worker | `elderscape-modeleditor` |
+| `color-by-number` | Pages | `Color-by-number` |
+| `astro-blog-starter-template` | Pages | `astro-blog-starter-template` |
+| `bathospire-professor` | Pages | `Bathospire-Professor-` |
+| `alt-1-helper-bridge` | Pages | `Alt-1_Helper-Bridge` |
+| `ai-game-studio` | Pages | `ai-game-studio` |
+| `openrsc-vinilla` | Pages | `openrsc-vinilla` |
+| `ichingoracle` | Worker | `I-Ching_Oracle` |
+| `rsmv` | Pages | `rsmv` |
+| `rsmv1` | Pages | `rsmv` |
+| `pog2` | Pages | `POG2` |
+| `cloudflare-code-agent` | Worker | `cloudflare-code-agent` |
+| `multiplayer-globe-template` | Pages | `multiplayer-globe-template` |
+| `willow-ai-game-dev` | Pages | `willow-ai-game-dev` |
+| `willow-hybrid-game-dev` | Pages | `willow-ai-game-dev-hybrid` |
+| `elderscape` | Pages | `Elder-Scape` / `ElderScape` |
+| `hello-ai` | Worker | `hello-ai` |
+| `hello-ai-worker-rsmv` | Worker | `hello-ai-worker-rsmv` |
+| `hello-ai-production` | Worker | `hello-ai` |
+| `pick-of-gods` | Worker | `pick-of-gods` |
+| `to-do-list-kv-template` | Worker | `to-do-list-kv-template-123` |
+| `rs3-ai-bot-api` | Worker | `rs3-ai-bot-api` |
+
+---
+
+## GRAPH FOOTER — COMPLETE INVENTORY OF 62 REPOSITORIES
 ====================================================================================================
 
 [SOURCE REPOSITORIES: 001–057]
@@ -771,7 +841,7 @@ The evidence matrix classifies all engineering records across four distinct epis
 ├── 187 [F] tensor2tensor <- RayeRen/tensor2tensor (Public · Python)
 └── 188 [F] training-exercise <- pick-of-gods/training-exercise (Public · JavaScript)
 
-SUMMARY: 57 Source [S] + 131 Forked [F] = 188 Total Repositories | View: Kbro1989 (https://github.com/Kbro1989?tab=repositories)
+SUMMARY: 62 Source [S] + 126 Forked [F] = 188 Total Repositories | View: Kbro1989 (https://github.com/Kbro1989?tab=repositories)
 
 ====================================================================================================
 
