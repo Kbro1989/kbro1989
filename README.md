@@ -1,312 +1,584 @@
-<div align="center">
-
 # ⚡ Pick of Gods · Kbro1989
 
-**Self-taught systems archaeologist. 20+ years of learning everything. Builder of thinking machines.**
+**Independent Systems Engineer · Experimental Computational Developer · Systems Archaeologist**
 
-[![Site](https://img.shields.io/badge/🌐_Site-POG2_Dev-0a0a0a?style=for-the-badge&logo=cloudflare&logoColor=F6821F)](https://pog2.dev)
-[![YouTube](https://img.shields.io/badge/YouTube-@kbrops-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kbrops)
-[![Patreon](https://img.shields.io/badge/Patreon-PickofGods-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/PickofGods)
-[![X](https://img.shields.io/badge/X-@browder__ke33437-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/browder_ke33437)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7167--420X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-7167-420X)
+I reverse-engineer, design, and build software systems across AI, distributed infrastructure, scientific computing, interactive environments, and embedded systems.
 
-[![MIT v1.1.0](https://img.shields.io/badge/License-MIT_v1.1.0-blue?style=flat-square)](LICENSE)
-[![Repos](https://img.shields.io/badge/repositories-82-6e40c9?style=flat-square)]()
-[![Domains](https://img.shields.io/badge/Domains-14-00c7b7?style=flat-square)]()
-[![Latency](https://img.shields.io/badge/Edge_Latency-0.02ms-00e676?style=flat-square)]()
+My work is driven by a recurring question:
 
-</div>
+**How can different technologies, models, and systems become parts of a coherent, resilient architecture?**
+
+I work from the underlying mechanisms upward: protocols, data structures, state machines, runtimes, interfaces, and the infrastructure that connects them.
 
 ---
 
-## 🧠 What This Is
+## 🧠 The Approach
 
-I don't build projects. I build **interlocking technological ecosystems** that happen to look like projects from the outside.
+I don't approach software as isolated applications.
 
-This profile contains **82 repositories** across **14 converged professional domains**. The same hexagram state machine runs in TypeScript on Cloudflare and in VHDL on a Zynq UltraScale+. The same 640ms tick drives RSC nostalgia and RS3 prediction. The same quest corpus trains synthetic agents and teaches humans.
+I look for the systems underneath them: how they represent state, exchange information, make decisions, recover from failure, and evolve over time.
 
-That convergence is what makes it a **Sovereign Stack**, not a resume.
+That has led me into several connected areas:
 
----
+- Building AI agents and orchestration infrastructure.
+- Reverse-engineering legacy software, game clients, caches, and protocols.
+- Designing distributed applications using Cloudflare Workers and Durable Objects.
+- Developing mathematical and scientific computing pipelines.
+- Exploring computational graphics, procedural content, and generative media.
+- Designing embedded and cyber-physical control architectures.
 
-## 🏛️ The 14 Domains
+The unifying theme is **systems integration through understanding fundamentals**.
 
-> These are not adjacent disciplines. They are **layers of the same system.**
-
-| # | Domain | Subsystems |
-|---|--------|------------|
-| 1 | **Edge-Native Distributed Systems** | Cloudflare Workers, Durable Objects, KV, D1, R2, WebSocket mesh, OpenRSC adapter |
-| 2 | **AI / Cognitive Systems Architecture** | GhostSplat, HexagramManager, TernaryRouter, CNSGodheadPulseVolley, PlayerAgent, ModelRolodex |
-| 3 | **Real-Time Multiplayer Systems** | 640ms tick, state sync, POG2WorldDO, collision, region updates |
-| 4 | **Reverse Engineering / Cache Forensics** | NXTStringForensics, CacheForensicsLimb, opcode versioning, 229k cache entities |
-| 5 | **Game Engine Programming** | RSMV, ServerLogicRegistry, quest engine, ability systems, AdrenalineStateMachine |
-| 6 | **Computer Graphics / 3D Pipelines** | Three.js, WebGL, PBR, kit 31149, AvatarComposer, identity kits |
-| 7 | **Computer Vision / Image Processing** | K-means, segmentation, creative pipelines |
-| 8 | **Creative Technology / Generative Media** | FFmpeg, VoiceLimb, StoryboardLimbV2, GutenbergLimb |
-| 9 | **FPGA / Embedded Systems** | VHDL, SystemVerilog, AXI4-Lite, Zynq, sensor acquisition, telemetry |
-| 10 | **Cyber-Physical / Propulsion** | MHD, Hamiltonian thermal, contactor/choke, high-voltage safety |
-| 11 | **Data / Knowledge Systems** | D1 event sourcing, WikiEquipmentEnricher, Weird Gloop API, validation |
-| 12 | **Pedagogy / Educational Systems** | Quest corpus as pedagogy, cursive, competency tracking |
-| 13 | **Platform / DevOps** | GitHub→CF pipeline, CLI tools, multi-variant deployment |
-| 14 | **Security / Resilience** | Zero-trust, circuit breaker, immune-system validation, EndpointHealer |
+I am self-taught, project-driven, and have spent more than 20 years learning across technical disciplines. My portfolio reflects that breadth: original projects, upstream contributions, research explorations, forks, and experimental implementations.
 
 ---
 
-## 🗺️ Repository Map
+## 🏗️ POG2 — The Sovereign Systems Platform
 
-### 🔷 POG2 Sovereign System *(7 repos)*
-> The main platform. All limbs, all domains, one mesh.
+[**POG2**](https://github.com/Kbro1989/POG2) is the central architecture connecting much of my current work.
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [POG2](https://github.com/Kbro1989/POG2) | HTML | Main platform repo (docs / site layer) |
-| [Pog2-Core](https://github.com/Kbro1989/Pog2-Core) | TypeScript | Core runtime — 27-limb neural pipeline substrate |
-| [Pog2-Data](https://github.com/Kbro1989/Pog2-Data) | — | Cache entity ingestion — 229k entities (32,512 NPCs · 59,984 items · 136k objects) |
-| [Pog2-Atlas](https://github.com/Kbro1989/Pog2-Atlas) | — | Spatial world map & region management |
-| [Pog2-Pedagogy](https://github.com/Kbro1989/Pog2-Pedagogy) | — | 3,516 quest entries + skill tracking + learning DB |
-| [Pog2-Guttenberg-](https://github.com/Kbro1989/Pog2-Guttenberg-) | — | GutenbergLimb — literary ingestion & narrative generation |
-| [D-sovereign-](https://github.com/Kbro1989/D-sovereign-) | TypeScript | Distributed state management layer |
+The goal is a modular environment where local computation, cloud services, AI models, persistent state, and specialized tools can cooperate without making any single provider or runtime a permanent dependency.
 
-> **Specs:** MIT v1.1.0 · 23MB TypeScript · 0.02ms latency · 89 tools across 7 domains · 389 models in Rolodex · 4-tier circuit breaker fallback
+### Architectural direction
 
----
+| Layer | Responsibility | Technologies |
+| --- | --- | --- |
+| Local runtime | Sovereign execution, local models, development workflows | Python, Ollama, CLI, desktop |
+| Agent orchestration | Routing, task coordination, specialized capabilities | TypeScript, Python, agent tools |
+| Edge infrastructure | Distributed execution and service interfaces | Cloudflare Workers |
+| Persistent state | Durable application and world state | Durable Objects, KV, D1, R2 |
+| Communication | Real-time application and agent communication | WebSockets, HTTP, APIs |
+| Data and knowledge | Structured entities, retrieval, validation | Python, TypeScript, APIs |
+| Interfaces | Dashboards, applications, development surfaces | HTML, JavaScript, TypeScript |
 
-### ⚔️ RuneScape Ecosystem *(17 repos)*
-> Reverse engineering, cache archaeology, and live server infrastructure.
+### Core components
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [openrsc-vinilla](https://github.com/Kbro1989/openrsc-vinilla) | JavaScript | OpenRSC vanilla server — Durable Object WebSocket Adapter, 640ms authentic tick |
-| [rsc-globe1-pure](https://github.com/Kbro1989/rsc-globe1-pure) | JavaScript | Multiplayer globe / PartyKit spatial worker |
-| [rscaievolution-png](https://github.com/Kbro1989/rscaievolution-png) | JavaScript | RSC AI evolution state visualization |
-| [rsc-dashboard](https://github.com/Kbro1989/rsc-dashboard) | HTML | OpenRSC server monitoring dashboard |
-| [hello-ai-worker-rsmv](https://github.com/Kbro1989/hello-ai-worker-rsmv) | — | RSMV 3D model builder-editor w/ Cloudflare AI |
-| [rsmv](https://github.com/Kbro1989/rsmv) | TypeScript | Fork of skillbert/rsmv — RS3 cache tools & model extractor (Classic / Present / Ternary) |
-| [elderscape-modeleditor](https://github.com/Kbro1989/elderscape-modeleditor) | HTML | RuneScape model editor |
-| [eldesrscape-modelviewer](https://github.com/Kbro1989/eldesrscape-modelviewer) | — | RSMV temporal-mode viewer |
-| [Elder-Scape](https://github.com/Kbro1989/Elder-Scape) | HTML | Game builder w/ Cloudflare & AI |
-| [ElderScape](https://github.com/Kbro1989/ElderScape) | JavaScript | Game builder w/ Cloudflare AI (JS layer) |
-| [Rs3-ai-api](https://github.com/Kbro1989/Rs3-ai-api) | JavaScript | RS3 AI API — Bestiary / GE / OfficialPlayerData proxy |
-| [rs3DiscAlt1HelperMemory](https://github.com/Kbro1989/rs3DiscAlt1HelperMemory) | JavaScript | RS3 Alt1 toolkit memory helper |
-| [Pick_Of_Gods](https://github.com/Kbro1989/Pick_Of_Gods) | Python | RS3 Alt1 on steroids |
-| [Alt-1_Helper-Bridge](https://github.com/Kbro1989/Alt-1_Helper-Bridge) | HTML | Alt1 helper bridge — game overlay integration |
-| [bot.ps1](https://github.com/Kbro1989/bot.ps1) | JavaScript | Alt1 helper bot *(The Unlicense)* |
-| [rs3-discord-bot](https://github.com/Kbro1989/rs3-discord-bot) | — | RS3 Discord companion bot |
-| models *(private)* | — | RS3 model assets / cache extraction |
+| Repository | Purpose |
+| --- | --- |
+| [POG2](https://github.com/Kbro1989/POG2) | Main platform and documentation |
+| [Pog2-Core](https://github.com/Kbro1989/Pog2-Core) | Core runtime and modular processing architecture |
+| [Pog2-Data](https://github.com/Kbro1989/Pog2-Data) | Data and entity ingestion |
+| [Pog2-Atlas](https://github.com/Kbro1989/Pog2-Atlas) | Spatial world and region management |
+| [Pog2-Pedagogy](https://github.com/Kbro1989/Pog2-Pedagogy) | Quest-based learning and progression data |
+| [Pog2-Guttenberg-](https://github.com/Kbro1989/Pog2-Guttenberg-) | Literary ingestion and narrative generation |
+| [D-sovereign-](https://github.com/Kbro1989/D-sovereign-) | Distributed state-management experiments |
 
----
+### Design principles
 
-### ☯️ I Ching / Oracle / Symbolic Systems *(5 repos)*
-> Philosophy as executable architecture.
+- **Sovereign-first:** prefer local execution where practical.
+- **Cloud as a resource:** use remote infrastructure when it adds capability or reach.
+- **Modularity:** specialized components should have explicit responsibilities and interfaces.
+- **Resilience:** design for failure, recovery, and alternative execution paths.
+- **Provenance:** preserve where information, decisions, and results originate.
+- **No fake completion:** distinguish prototypes, implemented functionality, and verified behavior.
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [KING-WEN-I-CHING-IMMUTABLE-TABLES](https://github.com/Kbro1989/KING-WEN-I-CHING-IMMUTABLE-TABLES) | Python | King Wen sequence lookup tables — 64 hexagrams × 6 yao |
-| [I-Ching_Oracle](https://github.com/Kbro1989/I-Ching_Oracle) | TypeScript | I Ching Oracle system — temporal routing, hexagram state machine, 729→64 path resolution |
-| [Bathospire-Professor-](https://github.com/Kbro1989/Bathospire-Professor-) | TypeScript | Cursive learning / pedagogy tool |
-| [king-wen-legal](https://github.com/Kbro1989/king-wen-legal) | HTML | King Wen IP / legal documentation layer |
-| [KW-K2](https://github.com/Kbro1989/KW-K2) | — | King Wen × Kimi-K2 integration (purpose TBD) |
+The intended architecture is not a claim that every component is already integrated or independently validated. It is the direction guiding the engineering.
 
 ---
 
-### 🤖 AI / Agent Infrastructure *(15 repos)*
+## 🗺️ The Technical Landscape
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [CfOllama](https://github.com/Kbro1989/CfOllama) | TypeScript | Ollama integration for Cloudflare — 16 models (deepseek-r1:8b, kimi-k2.5:cloud, etc.) |
-| [cloudflare-code-agent](https://github.com/Kbro1989/cloudflare-code-agent) | TypeScript | Cloudflare Workers AI code generation agent |
-| [POG-CLI-CODER](https://github.com/Kbro1989/POG-CLI-CODER) | JavaScript | CLI coding tool |
-| [ai-game-studio](https://github.com/Kbro1989/ai-game-studio) | TypeScript | AI-assisted game development studio |
-| [ai-image-model](https://github.com/Kbro1989/ai-image-model) | — | AI image generation pipeline |
-| [OpenJarvis](https://github.com/Kbro1989/OpenJarvis) *(fork)* | Python | Personal AI on personal devices (open-jarvis) |
-| [Megatron-LM](https://github.com/Kbro1989/Megatron-LM) *(fork)* | Python | NVIDIA transformer training at scale |
-| [hermes-agent](https://github.com/Kbro1989/hermes-agent) *(fork)* | Python | NousResearch Hermes agent |
-| [ai-sec-resources](https://github.com/Kbro1989/ai-sec-resources) *(fork)* | HTML | AI Security Resources Hub (Arcanum-Sec) |
-| [gibberlink](https://github.com/Kbro1989/gibberlink) *(fork)* | TypeScript | AI-to-AI FSK sound protocol (PennyroyalTea/gibberlink); wired into `kingwen_game_tick.py`; MIT |
-| [kimi-code](https://github.com/Kbro1989/kimi-code) *(fork)* | TypeScript | Kimi Code CLI — next-gen agent coding; MIT |
-| [voicebox](https://github.com/Kbro1989/voicebox) *(fork)* | JavaScript | Open-source AI voice studio; clone, dictate, create; MIT |
-| [kimi-cli](https://github.com/Kbro1989/kimi-cli) *(fork)* | Python | Kimi Code CLI agent monorepo; Apache 2.0 |
-| [Kimi-K2](https://github.com/Kbro1989/Kimi-K2) *(fork)* | Other | Kimi K2 large language model series (MoonshotAI) |
-| [Kimi-K2.5](https://github.com/Kbro1989/Kimi-K2.5) *(fork)* | Other | Kimi K2.5 model weights and release tree (MoonshotAI) |
+These are the 14 principal areas represented across my projects. They overlap, but each brings a different set of engineering problems.
 
----
-
-## 📁 Workspace Footprint
-
-| Folder | Size | Size on disk | Files / Folders | Created |
-|---|---|---|---|---|
-| `Desktop` | 28.4 GB | 29.1 GB | 437,966 / 4,520 | 2026-04-25 |
-| `Megatron-LM-review` | 8.83 GB | 8.91 GB | 40,511 / 5,269 | 2026-07-05 |
-| `hermes-agent` | 2.52 GB | 2.73 GB | 140,427 / 10,324 | 2026-06-21 |
-| `openjarvis-globe-worker` | 193 MB | 196 MB | 1,842 / 289 | 2026-07-07 |
-| `kimi` | 336 MB | 336 MB | 50 / 1 | 2026-06-06 |
-| `MHD-Propulsion-Controller-Simulator-main` | 178 MB | 192 MB | 10,222 / 911 | 2026-06-07 |
-| `POG2_ModelRolodex_Workflow` | 343 KB | 384 KB | 16 / 14 | 2026-07-03 |
-| `KING-WEN-I-CHING-IMMUTABLE-TABLES` | 42.0 MB | 42.9 MB | 531 / 224 | 2026-07-03 |
-| `pog2-jarvis-bridge` | 5.07 KB | 20.0 KB | 5 / 2 | 2026-07-07 |
+| # | Area | Representative work |
+| --- | --- | --- |
+| 1 | **Distributed and Edge Systems** | Workers, Durable Objects, KV, D1, R2, WebSocket services |
+| 2 | **AI and Agent Architecture** | Model routing, agent orchestration, tools, local/cloud execution |
+| 3 | **Real-Time Multiplayer Systems** | Game ticks, state synchronization, world regions, player persistence |
+| 4 | **Reverse Engineering and Forensics** | Cache analysis, opcode versioning, protocol and asset inspection |
+| 5 | **Game Engine and Simulation Systems** | Quest engines, ability systems, world state, game logic |
+| 6 | **Computer Graphics and 3D** | Three.js, WebGL, model extraction, rendering and asset pipelines |
+| 7 | **Computer Vision and Image Processing** | Segmentation, clustering, image analysis and processing |
+| 8 | **Creative and Generative Technology** | Audio/video pipelines, procedural media, narrative generation |
+| 9 | **Embedded and FPGA Systems** | VHDL, SystemVerilog, AXI4-Lite, Zynq architecture |
+| 10 | **Cyber-Physical and Propulsion Systems** | MHD simulation, control architecture, telemetry and safety logic |
+| 11 | **Data and Knowledge Engineering** | Structured ingestion, entity resolution, validation and event data |
+| 12 | **Education and Pedagogy** | Quest-based learning, skill progression, competency tracking |
+| 13 | **Platform Engineering and DevOps** | CI/CD, deployment pipelines, CLI tooling, multi-environment releases |
+| 14 | **Security and Resilience** | Fault handling, validation, recovery, zero-trust design |
 
 ---
 
-### 🌿 Willow AI / Game Dev *(4 repos)*
+## ⚔️ RuneScape — Reverse Engineering, Preservation and Multiplayer Systems
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [Willow-AI-Coding-Playground](https://github.com/Kbro1989/Willow-AI-Coding-Playground) | TypeScript | AI coding playground |
-| [willow-ai-game-dev-hybrid](https://github.com/Kbro1989/willow-ai-game-dev-hybrid) | TypeScript | Hybrid local/cloud game dev environment |
-| [willow-ai-game-dev](https://github.com/Kbro1989/willow-ai-game-dev) | TypeScript | Google Game Dev Dashboard integration |
-| [Willow-AI-Coding-Playground.](https://github.com/Kbro1989/Willow-AI-Coding-Playground.) | — | Variant / duplicate |
+One of my longest-running technical interests is understanding how complex game systems work beneath their interfaces.
 
----
+The RuneScape ecosystem gives me a practical environment for exploring legacy protocols, cache formats, game state, client behavior, real-time synchronization, and 3D assets.
 
-### ⚡ MHD / Propulsion / Hardware *(2 repos)*
-> Cyber-physical systems. The hexagram state machine in silicon.
+### Selected projects
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| MHD-Propulsion-Controller-Simulator *(private)* | TypeScript | MHD propulsion controller & simulator |
-| MHD-Propulsion-Controller-Simulator-main *(private)* | JavaScript | MHD propulsion controller simulator (main branch) |
+| Repository | Focus |
+| --- | --- |
+| [openrsc-vinilla](https://github.com/Kbro1989/openrsc-vinilla) | OpenRSC server and Cloudflare integration |
+| [rsc-globe1-pure](https://github.com/Kbro1989/rsc-globe1-pure) | Multiplayer globe worker |
+| [rsc-dashboard](https://github.com/Kbro1989/rsc-dashboard) | Server monitoring and visualization |
+| [rsmv](https://github.com/Kbro1989/rsmv) | RuneScape cache tools and 3D model extraction |
+| [hello-ai-worker-rsmv](https://github.com/Kbro1989/hello-ai-worker-rsmv) | RSMV and Cloudflare AI integration |
+| [ElderScape](https://github.com/Kbro1989/ElderScape) | Game-building and AI-assisted development |
+| [Elder-Scape](https://github.com/Kbro1989/Elder-Scape) | Game-builder implementation |
+| [Rs3-ai-api](https://github.com/Kbro1989/Rs3-ai-api) | RS3 data and API integration |
+| [Alt-1_Helper-Bridge](https://github.com/Kbro1989/Alt-1_Helper-Bridge) | Game overlay integration |
+| [Pick_Of_Gods](https://github.com/Kbro1989/Pick_Of_Gods) | RS3 assistant and tooling |
 
-> **Hardware target:** Zynq UltraScale+ ZU7EV · 7 HDL sub-modules: `ContactorSequencer` · `ChokeDriver` · `SensorAcquisition` · `TelemetryEncoder` · `AXI4LiteSlave` · `HexagramStateMachine` · `GhostSplatPredictor`
+### Engineering interests
 
----
+- Legacy cache and asset forensics.
+- Version-aware opcode and data interpretation.
+- Client/server boundaries and protocol behavior.
+- Authentic real-time game timing.
+- Durable player state and multiplayer synchronization.
+- 3D model extraction, inspection, and editing.
+- AI-assisted game interaction and world-state interpretation.
 
-### 🎨 Creative / Generative Media *(3 repos)*
-
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [Color-by-number](https://github.com/Kbro1989/Color-by-number) | TypeScript | Color-by-number generative art app |
-| [Ultimate-Kirby-](https://github.com/Kbro1989/Ultimate-Kirby-) | — | Transform pipeline — image/audio spectral transformation |
-| [CelestialArtisanBot](https://github.com/Kbro1989/CelestialArtisanBot) | — | Generative art / creative automation bot *(Boost License)* |
-
----
-
-### ☁️ Cloudflare / Templates *(7 repos)*
-
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [templates](https://github.com/Kbro1989/templates) *(fork)* | JavaScript | Cloudflare Workers templates |
-| [to-do-list-kv-template-123](https://github.com/Kbro1989/to-do-list-kv-template-123) *(fork)* | JavaScript | Cloudflare KV to-do list template |
-| [hello-ai](https://github.com/Kbro1989/hello-ai) | JavaScript | Hello AI starter / boilerplate |
-| [astro-blog-starter-template](https://github.com/Kbro1989/astro-blog-starter-template) | Astro | Astro blog starter |
-| [Kbro1989.github.io](https://github.com/Kbro1989/Kbro1989.github.io) | — | GitHub Pages site *(The Unlicense)* |
-| [pick-of-gods](https://github.com/Kbro1989/pick-of-gods) | JavaScript | Org landing / utility |
-| [kbro1989](https://github.com/Kbro1989/kbro1989) | — | Profile & sovereign stack repository map |
+A recurring design target is the original RuneScape Classic **640 ms game cycle**. I use that timing as a reference point when exploring compatibility and real-time system behavior.
 
 ---
 
-### 🔀 Forks / External Tools *(12 repos)*
+## ☯️ King Wen — Symbolic Systems as Executable Architecture
 
-| Repo | Lang | Source |
-|------|------|--------|
-| [open-design](https://github.com/Kbro1989/open-design) *(fork)* | TypeScript | nexu-io/open-design — Claude Design alternative, local-first |
-| [skills](https://github.com/Kbro1989/skills) *(fork)* | TypeScript | vercel-labs/skills — open agent skills tool |
-| [skills-1](https://github.com/Kbro1989/skills-1) *(fork)* | Python | anthropics/skills — public agent skills |
-| [multiplayer-globe-template](https://github.com/Kbro1989/multiplayer-globe-template) *(fork)* | TypeScript | pick-of-gods/multiplayer-globe-template |
-| [mwparserfromhell](https://github.com/Kbro1989/mwparserfromhell) *(fork)* | Python | earwig/mwparserfromhell — MediaWiki wikicode parser |
-| [my-chat-agent](https://github.com/Kbro1989/my-chat-agent) *(fork)* | TypeScript | pick-of-gods/my-chat-agent |
-| [rs3-ai-bot-api](https://github.com/Kbro1989/rs3-ai-bot-api) *(fork)* | TypeScript | pick-of-gods/rs3-ai-bot-api |
-| [ai-chat](https://github.com/Kbro1989/ai-chat) *(fork)* | TypeScript | pick-of-gods/ai-chat |
-| [llm-chat-app-template](https://github.com/Kbro1989/llm-chat-app-template) *(fork)* | JavaScript | pick-of-gods/llm-chat-app-template |
-| [kosong](https://github.com/Kbro1989/kosong) *(fork)* | — | MoonshotAI/kosong — LLM abstraction layer for modern AI agents |
-| [kingwenfinance](https://github.com/Kbro1989/kingwenfinance) *(fork)* | Python | pick-of-gods/kingwenfinance — Yahoo! Finance market data; Apache 2.0 |
-| [K2-Vendor-Verifier](https://github.com/Kbro1989/K2-Vendor-Verifier) *(fork)* | Python | MoonshotAI/K2-Vendor-Verifier — verify Kimi K2 API vendor precision |
+The King Wen work explores how symbolic structures can be represented as deterministic computational systems.
 
----
+The I Ching provides a constrained state space: 64 hexagrams, six lines per hexagram, and transformations between states.
 
-### 🔭 Other / Utility *(1 repo)*
+Rather than treating the system as a simple lookup table, I explore its representation through state machines, temporal routing, data integrity, and computational interfaces.
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [Antigravity-Ultimate](https://github.com/Kbro1989/Antigravity-Ultimate) | JavaScript | Physics / simulation exploration |
+### Selected repositories
 
----
+| Repository | Focus |
+| --- | --- |
+| [KING-WEN-I-CHING-IMMUTABLE-TABLES](https://github.com/Kbro1989/KING-WEN-I-CHING-IMMUTABLE-TABLES) | Immutable hexagram and line tables |
+| [I-Ching_Oracle](https://github.com/Kbro1989/I-Ching_Oracle) | Oracle application and state-routing architecture |
+| [KW-K2](https://github.com/Kbro1989/KW-K2) | King Wen and Kimi-K2 integration exploration |
+| [Bathospire-Professor-](https://github.com/Kbro1989/Bathospire-Professor-) | Cursive learning and educational tooling |
+| [king-wen-legal](https://github.com/Kbro1989/king-wen-legal) | Project documentation and legal materials |
 
-### 🧰 NorfolkNChance Forks *(9 repos)*
-> Secondary identity forks integrated into the sovereign stack toolchain.
+The broader design explores:
 
-| Repo | Lang | What It Is |
-|------|------|------------|
-| [runelite](https://github.com/Kbro1989/runelite) *(fork)* | Java | Open source OSRS client — cache decoder + ID generators; BSD 2-Clause |
-| [cinder](https://github.com/Kbro1989/cinder) *(fork)* | TypeScript | Note-taking and todo list manager; MIT |
-| [octobuild](https://github.com/Kbro1989/octobuild) *(fork)* | Rust | Compiler cache for Unreal Engine; MIT |
-| [lore-desktop](https://github.com/Kbro1989/lore-desktop) *(fork)* | Rust | Desktop application |
-| [world-of-claudecraft](https://github.com/Kbro1989/world-of-claudecraft) *(fork)* | TypeScript | MIT |
-| [TES5Edit](https://github.com/Kbro1989/TES5Edit) *(fork)* | Pascal | xEdit — Skyrim mod editing tool; Mozilla Public License 2.0 |
-| [mesop-app](https://github.com/Kbro1989/mesop-app) *(fork)* | Python | LLM Chat App using Google Mesop |
-| [personal-website](https://github.com/Kbro1989/personal-website) *(fork)* | Python | Sample personal site; GPL v3 |
-| [NorfolkNChance.github.io](https://github.com/Kbro1989/NorfolkNChance.github.io) *(fork)* | HTML | GitHub Pages site |
+- 64-state hexagram representation.
+- Six-line state transformations.
+- Past, Present, and Future temporal dimensions.
+- Ternary routing and state resolution.
+- Immutable reference data and validation.
+- Interfaces between symbolic reasoning and executable software.
+
+The central principle is simple: **a symbolic system should have explicit rules, traceable state transitions, and reproducible outputs**.
 
 ---
 
-## ✅ Verified Facts *(Not Hype)*
+## 🤖 AI, Agents and Model Infrastructure
 
-- **POG2** is a 27-limb distributed neural pipeline running on Cloudflare edge infrastructure.
-- **229,000** cache entities ingested from RuneScape cache revision 221+ with versioned opcode rules.
-- **3,516** quest entries with full prerequisite chains, skill requirements, and progression states.
-- **640ms metabolic tick** — same rhythm as RSC, upgraded from state photograph to intent transcriptome.
-- **HexagramManager** implements 64 I Ching states with temporal dimensions (Past / Present / Future) and 729-path ternary routing.
-- **GhostSplat** predicts player/NPC state 300ms forward for RS3 tick alignment.
-- **RSMV** supports three temporal modes: Classic (2004–2016), Present (2016+), and Ternary (cross-temporal routing).
-- **OpenRSC** runs on Cloudflare Durable Objects with authentic 640ms tick loops and KV player saves.
-- **MHD controller** targets Zynq UltraScale+ ZU7EV with 7 HDL sub-modules including `HexagramStateMachine` and `GhostSplatPredictor` in silicon.
-- **Freemium model** — all 27 limbs work across all tiers. Trauma-informed design from lived experience.
-- **Hermes Agent** is the sovereign runtime shell for this stack: same program exposed through localhost CLI, desktop/TUI, and gateway/dashboard service points; slash-command driven; kanban and cron run as continuous embedded gateway loops with current skill cards as the agent workforce.
-- **Repository footprint** is **82 public GitHub repos** (live count 2026-07-22), with additional local-only workspaces under `~/Desktop` and `C:/Users/krist/Desktop` not reflected in public counts.
+My AI work focuses on infrastructure around models, not just model interaction.
+
+I experiment with how models can be selected, connected to tools, coordinated across tasks, and deployed across local and cloud environments.
+
+### Selected repositories
+
+| Repository | Focus |
+| --- | --- |
+| [CfOllama](https://github.com/Kbro1989/CfOllama) | Ollama and Cloudflare integration |
+| [cloudflare-code-agent](https://github.com/Kbro1989/cloudflare-code-agent) | AI-assisted code generation |
+| [POG-CLI-CODER](https://github.com/Kbro1989/POG-CLI-CODER) | Command-line coding workflows |
+| [ai-game-studio](https://github.com/Kbro1989/ai-game-studio) | AI-assisted game development |
+| [Willow-AI-Coding-Playground](https://github.com/Kbro1989/Willow-AI-Coding-Playground) | AI coding environment |
+| [willow-ai-game-dev-hybrid](https://github.com/Kbro1989/willow-ai-game-dev-hybrid) | Local/cloud game-development experiments |
+| [OpenJarvis](https://github.com/Kbro1989/OpenJarvis) | Forked local-first AI platform |
+| [hermes-agent](https://github.com/Kbro1989/hermes-agent) | Forked agent runtime and workflow exploration |
+
+I also study and work with upstream projects across model training, agent frameworks, model interfaces, and developer tooling.
+
+**A fork is not the same thing as an original implementation.** I maintain forks for experimentation, integration, adaptation, and understanding upstream systems; original development is identified separately.
+
+---
+
+## 🔬 Scientific and Mathematical Computing
+
+Scientific computing is an important part of my work because it forces software to answer to mathematical and numerical constraints.
+
+Examples include:
+
+- Mathematical document extraction and equation parsing.
+- Structural preservation of mathematical notation.
+- Numerical simulation and solver architecture.
+- Data validation and reproducible evaluation.
+- GPU/CPU correctness comparisons.
+- Computational modeling and visualization.
+
+### Quantum simulation collaboration
+
+I contributed to an existing open-source quantum simulation project by extending its multidimensional simulation capabilities.
+
+The work included:
+
+- 2D and 3D simulation structures.
+- Multidimensional wavefunction and grid support.
+- Split-step solver development.
+- Absorbing boundary-layer functionality.
+- GPU-accelerated 3D solver work.
+- Benchmarking and correctness-validation improvements.
+
+Two pull requests were merged upstream in August 2026. The maintainer specifically praised the GPU optimization work and the CPU/GPU parity and energy-conservation test coverage.
+
+This is an important part of my portfolio: engineering within an existing codebase, respecting its architecture, validating changes, and contributing functionality that the upstream maintainer accepts.
+
+---
+
+## ⚡ Embedded Systems and Cyber-Physical Architecture
+
+I also explore the boundary between software architecture and physical systems.
+
+One project investigates an MHD propulsion controller and simulation architecture, with a Zynq UltraScale+ ZU7EV as a hardware target.
+
+The design work includes VHDL/SystemVerilog modules and interfaces for:
+
+- Contactor sequencing.
+- Choke-driver control.
+- Sensor acquisition.
+- Telemetry encoding.
+- AXI4-Lite communication.
+- Hexagram-based state logic.
+- Predictive state-processing experiments.
+
+Related simulation and control work explores Hamiltonian thermal modeling, system behavior, telemetry, and high-voltage safety considerations.
+
+These are engineering and research explorations. A hardware target or HDL module should not be interpreted as proof of a fabricated, commissioned, or safety-certified physical system.
+
+---
+
+## 🎨 Graphics, Creative Technology and Generative Media
+
+I build tools that connect computation with visual and creative workflows.
+
+Areas include:
+
+- Three.js and WebGL.
+- 3D asset inspection and editing.
+- Procedural image generation.
+- Image segmentation and clustering.
+- Audio and video processing.
+- FFmpeg-based media workflows.
+- Narrative and document generation.
+- Creative automation.
+
+Selected projects:
+
+| Repository | Focus |
+| --- | --- |
+| [Color-by-number](https://github.com/Kbro1989/Color-by-number) | Generative art application |
+| [Ultimate-Kirby-](https://github.com/Kbro1989/Ultimate-Kirby-) | Image and audio transformation experiments |
+| [CelestialArtisanBot](https://github.com/Kbro1989/CelestialArtisanBot) | Generative art and creative automation |
+| [rsmv](https://github.com/Kbro1989/rsmv) | 3D model inspection and extraction |
+
+---
+
+## ☁️ Deployment and Infrastructure
+
+Cloudflare is a major part of my edge-infrastructure work.
+
+I use Workers and Pages to explore deployment patterns that connect frontends, APIs, stateful services, and external systems.
+
+I am particularly interested in the distinction between:
+
+- Local applications and local execution.
+- Cloud-hosted applications.
+- Edge Workers and service endpoints.
+- Durable Objects and persistent coordination.
+- WebSocket lifecycle and connection behavior.
+- GitHub-based development and deployment pipelines.
+
+The objective is to make the same broader system usable across different execution environments without assuming that every workload belongs in the cloud.
+
+### Selected deployed applications
+
+| Application | Platform |
+| --- | --- |
+| [POG2](https://pog2.dev) | Main platform |
+| [rsc-dashboard](https://rsc-dashboard.pages.dev/) | Pages |
+| [rsc-authentic-client](https://rsc-authentic-client.pages.dev/) | Worker endpoint |
+| [willow-ai-coding-playground](https://willow-ai-coding-playground.pages.dev/) | Pages |
+| [openrsc-vinilla](https://github.com/Kbro1989/openrsc-vinilla) | Repository and deployment project |
+| [elderscape-modeleditor](https://github.com/Kbro1989/elderscape-modeleditor) | Worker project |
+| [kingwen-oracle](https://github.com/Kbro1989/I-Ching_Oracle) | Oracle application |
+
+---
+
+## 📊 Portfolio Snapshot
+
+<sub>Repository inventory snapshot: November 18, 2026. Counts are a point-in-time inventory, not a measure of code quality or contribution size.</sub>
+
+| Metric | Count |
+| --- | --- |
+| Total repositories | 188 |
+| Source repositories | 57 |
+| Forked repositories | 131 |
+| Principal technical areas | 14 |
+
+The repository inventory includes original projects, forks, experiments, integrations, and development tools.
+
+This README highlights selected projects rather than attempting to describe every repository. The complete inventory is available through the [GitHub repositories page](https://github.com/Kbro1989?tab=repositories).
+
+---
+
+## 🧭 How I Work
+
+I value engineering discipline over impressive-looking claims.
+
+My preferred workflow is:
+
+1. **Inspect:** understand the existing architecture, code, data, and constraints.
+2. **Trace:** identify dependencies, state transitions, interfaces, and failure paths.
+3. **Implement:** make targeted changes that respect the system's existing contracts.
+4. **Test:** use explicit tests, benchmarks, and validation criteria.
+5. **Document:** preserve decisions, provenance, limitations, and reproducibility.
+6. **Verify:** distinguish what works from what is merely designed or proposed.
+
+I try to avoid mock implementations presented as finished systems, silent assumptions, and performance claims without measurement context.
+
+I am interested in systems that can be inspected, tested, extended, and understood—not just demonstrated.
 
 ---
 
 ## 🏢 Organizations
 
-| Org | Role |
-|-----|------|
-| [@pick-of-gods](https://github.com/pick-of-gods) | Original POG infrastructure |
-| [@Pick-of-Gods-Dev](https://github.com/Pick-of-Gods-Dev) | Development org |
+| Organization | Purpose |
+| --- | --- |
+| [Pick of Gods](https://github.com/pick-of-gods) | Original POG infrastructure and projects |
+| [Pick of Gods Dev](https://github.com/Pick-of-Gods-Dev) | Development organization |
 
 ---
 
 <div align="center">
 
-Built on **Cloudflare**. Licensed under **MIT v1.1.0** where applicable.
+### Build systems that understand their own structure.
 
-*"The same hexagram state machine runs in TypeScript on Cloudflare and in VHDL on a Zynq UltraScale+."*
+**Pick of Gods · Kbro1989**
+
+[Website](https://pog2.dev) · [GitHub](https://github.com/Kbro1989) · [YouTube](https://youtube.com/@kbrops)
+
+*Independent work. Open-source collaboration. Experimental systems engineering.*
 
 </div>
 
-## 🚀 Deployed Apps → Repository Map
+---
 
-| Deployed App | Type | Repository |
-|---|---|---|
-| `jarvis-router` | Worker | `OpenJarvis` |
-| `openjarvis-kingwen-globe` | Worker | `OpenJarvis` |
-| `kingwen-oracle` | Worker | `I-Ching_Oracle` / `KING-WEN-I-CHING-IMMUTABLE-TABLES` |
-| `antigravity-bridge-relay` | Worker | `open-design` / `Antigravity-Ultimate` |
-| `willow-ai-coding-playground` | Pages | `Willow-AI-Coding-Playground` |
-| `rscaievolution-png` | Pages | `rscaievolution-png` |
-| `rsc-globe1-pure` | Pages | `rsc-globe1-pure` |
-| `rsc-dashboard` | Pages | `rsc-dashboard` |
-| `rs3-ai-api` | Pages | `Rs3-ai-api` |
-| `mhdpropulsioncontrollersimulator` | Worker | `MHD-Propulsion-Controller-Simulator` |
-| `d-sovereign` | Pages | `D-sovereign-` |
-| `elderscape-modeleditor` | Worker | `elderscape-modeleditor` |
-| `color-by-number` | Pages | `Color-by-number` |
-| `astro-blog-starter-template` | Pages | `astro-blog-starter-template` |
-| `bathospire-professor` | Pages | `Bathospire-Professor-` |
-| `alt-1-helper-bridge` | Pages | `Alt-1_Helper-Bridge` |
-| `ai-game-studio` | Pages | `ai-game-studio` |
-| `openrsc-vinilla` | Pages | `openrsc-vinilla` |
-| `ichingoracle` | Worker | `I-Ching_Oracle` |
-| `rsmv` | Pages | `rsmv` |
-| `rsmv1` | Pages | `rsmv` |
-| `pog2` | Pages | `POG2` |
-| `cloudflare-code-agent` | Worker | `cloudflare-code-agent` |
-| `multiplayer-globe-template` | Pages | `multiplayer-globe-template` |
-| `willow-ai-game-dev` | Pages | `willow-ai-game-dev` |
-| `willow-hybrid-game-dev` | Pages | `willow-ai-game-dev-hybrid` |
-| `elderscape` | Pages | `Elder-Scape` / `ElderScape` |
-| `hello-ai` | Worker | `hello-ai` |
-| `hello-ai-worker-rsmv` | Worker | `hello-ai-worker-rsmv` |
-| `helloaiworkerrsmv` | Worker | `hello-ai-worker-rsmv` |
-| `hello-ai-production` | Worker | `hello-ai` |
-| `pick-of-gods` | Worker | `pick-of-gods` |
-| `to-do-list-kv-template` | Worker | `to-do-list-kv-template-123` |
-| `rs3-ai-bot-api` | Worker | `rs3-ai-bot-api` |
+## **What I would change before publishing**
+
+There are a few things I would not let the README gloss over.
+
+| Existing claim | My recommendation |
+| --- | --- |
+| 27-limb neural pipeline | Keep only if the 27 limbs are enumerated and their implementation status is clear. |
+| 389 models in Rolodex | Publish with an as-of date and clarify whether these are indexed, available, or tested models. |
+| 89 tools across 7 domains | Same: distinguish registered tools from operationally tested tools. |
+| 3,516 quest entries | Keep, but link to the data and validation evidence. |
+| 729-path ternary routing | Explain what the 729 paths represent and how they are resolved. |
+| GhostSplat predicts 300 ms forward | Label as an implemented prediction capability only if you have testable prediction output and evaluation data. |
+| Zynq UltraScale+ target | Keep the hardware-target qualification. Don't imply deployed silicon without evidence. |
+| 640 ms tick | Keep as the RSC timing reference; don't imply every connected service has been validated against it. |
+
+**One important strategic point:** the README should not try to prove that all 14 domains are one finished machine. It should show that you can work across those domains, identify common architectural problems, and build systems that connect them.
+
+That is a much stronger claim—and it is easier to defend.
+
+My next priority would be a **technical evidence index** linked from this README: one page showing each major system, its repository, implementation status, tests or benchmarks, deployment endpoint, and known limitations. That would let the README stay readable while giving technical readers somewhere substantial to investigate.
+
+---
+
+====================================================================================================
+GRAPH FOOTER — COMPLETE INVENTORY OF 188 REPOSITORIES (57 SOURCE + 131 FORKED)
+====================================================================================================
+
+[SOURCE REPOSITORIES: 001–057]
+├── 001 [S] POG2 (Public · HTML)
+├── 002 [S] KING-WEN-I-CHING-IMMUTABLE-TABLES (Public · Python)
+├── 003 [S] crimson-mode-81d1 (Public · JavaScript)
+├── 004 [S] off-line-shap-e (Public)
+├── 005 [S] Browder-Broder-er--Family-Tree (Public · HTML)
+├── 006 [S] RS3Bplugins (Private · Lua)
+├── 007 [S] KW-K2 (Public · HTML)
+├── 008 [S] MHD-Propulsion-Controller-Simulator-main (Public · JavaScript)
+├── 009 [S] king-wen-legal (Public · HTML)
+├── 010 [S] Alt-1_Helper-Bridge (Public · HTML)
+├── 011 [S] kingwen-oracle (Public · HTML)
+├── 012 [S] kbro1989 (Public)
+├── 013 [S] RUNESCAPE-WIDGETS (Public · HTML)
+├── 014 [S] CfOllama (Public · TypeScript)
+├── 015 [S] Willow-AI-Coding-Playground (Public · TypeScript)
+├── 016 [S] King-Wen-Worker (Public)
+├── 017 [S] I-Ching_Oracle (Public · TypeScript)
+├── 018 [S] MHD-Propulsion-Controller-Simulator (Private · TypeScript)
+├── 019 [S] Video-Automation-Remotion (Public · TypeScript)
+├── 020 [S] willow-ai-game-dev (Public · TypeScript)
+├── 021 [S] willow-ai-game-dev-hybrid (Public · TypeScript)
+├── 022 [S] Ultimate-Kirby- (Public)
+├── 023 [S] rscaievolution-png (Public · JavaScript)
+├── 024 [S] rsc-globe1-pure (Public · JavaScript)
+├── 025 [S] rsc-dashboard (Public · HTML)
+├── 026 [S] rs3DiscAlt1HelperMemory (Public · JavaScript)
+├── 027 [S] rs3-discord-bot (Public)
+├── 028 [S] Rs3-ai-api (Public · JavaScript)
+├── 029 [S] Pog2-Guttenberg- (Public)
+├── 030 [S] Pog2-Data (Public)
+├── 031 [S] Pog2-Core (Public · TypeScript)
+├── 032 [S] Pog2-Atlas (Private)
+├── 033 [S] POG-CLI-CODER (Public · JavaScript)
+├── 034 [S] Pick_Of_Gods (Public · Python)
+├── 035 [S] pick-of-gods (Public · JavaScript)
+├── 036 [S] Kbro1989.github.io (Public · The Unlicense)
+├── 037 [S] hello-ai (Public · JavaScript)
+├── 038 [S] elderscape-modeleditor (Public · HTML)
+├── 039 [S] hello-ai-worker-rsmv (Public)
+├── 040 [S] ElderScape (Public · JavaScript)
+├── 041 [S] Elder-Scape (Public · HTML)
+├── 042 [S] D-sovereign- (Public · TypeScript)
+├── 043 [S] Color-by-number (Public · TypeScript)
+├── 044 [S] cloudflare-code-agent (Public · TypeScript)
+├── 045 [S] CelestialArtisanBot (Public · Boost Software License 1.0)
+├── 046 [S] bot.ps1 (Public · JavaScript)
+├── 047 [S] Bathospire-Professor- (Public · TypeScript)
+├── 048 [S] astro-blog-starter-template (Public · Astro)
+├── 049 [S] Antigravity-Ultimate (Public · JavaScript)
+├── 050 [S] ai-image-model (Public)
+├── 051 [S] ai-game-studio (Public · TypeScript)
+├── 052 [S] openrsc-vinilla (Public · JavaScript)
+├── 053 [S] 2026-creative-strategy-summit (Public · HTML)
+├── 054 [S] Pog2-Pedagogy (Public)
+├── 055 [S] Willow-AI-Coding-Playground. (Public)
+├── 056 [S] eldesrscape-modelviewer (Public)
+└── 057 [S] models (Private)
+
+[FORKED REPOSITORIES: 058–188]
+├── 058 [F] trureturing <- the-omega-institute/trureturing (Public · Lean)
+├── 059 [F] graphify <- Graphify-Labs/graphify (Public · Python)
+├── 060 [F] unsuper_tts_asr <- RayeRen/unsuper_tts_asr (Public · HTML)
+├── 061 [F] multilingual-kd-pytorch <- RayeRen/multilingual-kd-pytorch (Public · Python)
+├── 062 [F] fastspeech-poster <- RayeRen/fastspeech-poster (Public)
+├── 063 [F] data-mining-python <- RayeRen/data-mining-python (Public · HTML)
+├── 064 [F] ml-for-3d-course <- huggingface/ml-for-3d-course (Public · MDX)
+├── 065 [F] OpenJarvis <- open-jarvis/OpenJarvis (Public · Python)
+├── 066 [F] pygraphviz <- pygraphviz/pygraphviz (Public · Python)
+├── 067 [F] rs3-Watchdog <- GrynjolfLabs/rs3-Watchdog (Public · Lua)
+├── 068 [F] rsmv <- skillbert/rsmv (Public · TypeScript)
+├── 069 [F] maya-usd <- Autodesk/maya-usd (Public · Wolfram Language)
+├── 070 [F] quantum-simulation <- rasidi3112/quantum-simulation (Public · Python)
+├── 071 [F] hyperframes <- heygen-com/hyperframes (Public · TypeScript)
+├── 072 [F] remotion <- remotion-dev/remotion (Public · TypeScript)
+├── 073 [F] react-spring <- pmndrs/react-spring (Public · TypeScript)
+├── 074 [F] pixijs <- pixijs/pixijs (Public · TypeScript)
+├── 075 [F] alt1 <- skillbert/alt1 (Public · TypeScript)
+├── 076 [F] libZotero <- fcheslack/libZotero (Public · JavaScript)
+├── 077 [F] Token-Print <- Sudharsanselvaraj/Token-Print (Public · TypeScript)
+├── 078 [F] cookbook <- google-gemini/cookbook (Public · Jupyter Notebook)
+├── 079 [F] runelite-watchdog <- adamk33n3r/runelite-watchdog (Public · Java)
+├── 080 [F] prompt2rig <- blendi-remade/prompt2rig (Public · JavaScript)
+├── 081 [F] entity-hider <- Rcm37/entity-hider (Public · Lua)
+├── 082 [F] job-gauges-official-api <- NadyaNayme/job-gauges-official-api (Public · Lua)
+├── 083 [F] tripo-python-sdk <- Tripo-Developer/tripo-python-sdk (Public · Python)
+├── 084 [F] cinder <- NorfolkNChance/cinder (Public · Python)
+├── 085 [F] colibri <- JustVugg/colibri (Public · C)
+├── 086 [F] universal-modder <- pick-of-gods/universal-modder (Public · Python)
+├── 087 [F] rsc-editor <- iraqnroll/rsc-editor (Public · TypeScript)
+├── 088 [F] Reverse-Engineer-anything <- NabilRFG12/Reverse-Engineer-anything (Public · TypeScript)
+├── 089 [F] BigData_Arxiv_Analysis <- AureleoPKU/BigData_Arxiv_Analysis (Public · Python)
+├── 090 [F] zotero-docs <- zotero/zotero-docs (Public · HTML)
+├── 091 [F] mwparserfromhell <- earwig/mwparserfromhell (Public · Python)
+├── 092 [F] Kimi-K2 <- MoonshotAI/Kimi-K2 (Public · Other)
+├── 093 [F] gibberlink <- PennyroyalTea/gibberlink (Public · TypeScript)
+├── 094 [F] MUGEN <- pick-of-gods/MUGEN (Public · Python)
+├── 095 [F] shap-e <- openai/shap-e (Public · Python)
+├── 096 [F] runelite <- NorfolkNChance/runelite (Public · Java)
+├── 097 [F] zotero-api-client <- pick-of-gods/zotero-api-client (Public · JavaScript)
+├── 098 [F] skills-1 <- anthropics/skills (Public · Python)
+├── 099 [F] OpenUSD <- PixarAnimationStudios/OpenUSD (Public · C++)
+├── 100 [F] godot <- Alberto12345678999/godot (Public · C++)
+├── 101 [F] fafbseg <- natverse/fafbseg (Public · R)
+├── 102 [F] knowledge-work-plugins <- anthropics/knowledge-work-plugins (Public · Python)
+├── 103 [F] image2cpp <- javl/image2cpp (Public · JavaScript)
+├── 104 [F] mathlib4 <- leanprover-community/mathlib4 (Public · Lean)
+├── 105 [F] trl <- huggingface/trl (Public · Python)
+├── 106 [F] bevy <- bevyengine/bevy (Public · Rust)
+├── 107 [F] DeCAL <- AureleoPKU/DeCAL (Public · Python)
+├── 108 [F] ollama <- ollama/ollama (Public · Go)
+├── 109 [F] FPCO-Dialog <- lab-klc/FPCO-Dialog (Public)
+├── 110 [F] voicebox <- pick-of-gods/voicebox (Public · JavaScript)
+├── 111 [F] 3D-Vision-Benchmark <- UFPR-IPASP-PR/3D-Vision-Benchmark (Public · Python)
+├── 112 [F] github-changelog-generator <- seando-adsk/github-changelog-generator (Public · Ruby)
+├── 113 [F] jacobian-lens <- anthropics/jacobian-lens (Public · Python)
+├── 114 [F] ArtificialRosettaStone <- pick-of-gods/ArtificialRosettaStone (Public · TeX)
+├── 115 [F] spectral-diffusion-playground <- pick-of-gods/spectral-diffusion-playground (Public · Python)
+├── 116 [F] malecns <- natverse/malecns (Public · R)
+├── 117 [F] Pix2Text <- breezedeus/Pix2Text (Public · Jupyter Notebook)
+├── 118 [F] anime <- juliangarnier/anime (Public · JavaScript)
+├── 119 [F] Pumpkin <- vyPal/Pumpkin (Public · Rust)
+├── 120 [F] coconatfly <- natverse/coconatfly (Public · R)
+├── 121 [F] react-base-table <- Autodesk/react-base-table (Public · TypeScript)
+├── 122 [F] rag-copilot-app <- tejus09/rag-copilot-app (Public · Python)
+├── 123 [F] Kimi-K2.5 <- MoonshotAI/Kimi-K2.5 (Public · Other)
+├── 124 [F] kimi-code <- MoonshotAI/kimi-code (Public · TypeScript)
+├── 125 [F] kosong <- MoonshotAI/kosong (Public)
+├── 126 [F] kimi-cli <- MoonshotAI/kimi-cli (Public · Python)
+├── 127 [F] EasyEdit <- zjunlp/EasyEdit (Public · Jupyter Notebook)
+├── 128 [F] cavegemma <- JuliusBrussee/cavegemma (Public · Python)
+├── 129 [F] Megatron-LM <- NVIDIA/Megatron-LM (Public · Python)
+├── 130 [F] octobuild <- NorfolkNChance/octobuild (Public · Rust)
+├── 131 [F] to-do-list-kv-template-123 <- cloudflare/to-do-list-kv-template-123 (Public · JavaScript)
+├── 132 [F] templates <- cloudflare/templates (Public · JavaScript)
+├── 133 [F] skills <- vercel-labs/skills (Public · TypeScript)
+├── 134 [F] rs3-ai-bot-api <- pick-of-gods/rs3-ai-bot-api (Public · TypeScript)
+├── 135 [F] my-chat-agent <- pick-of-gods/my-chat-agent (Public · TypeScript)
+├── 136 [F] multiplayer-globe-template <- pick-of-gods/multiplayer-globe-template (Public · TypeScript)
+├── 137 [F] llm-chat-app-template <- pick-of-gods/llm-chat-app-template (Public · JavaScript)
+├── 138 [F] hermes-agent <- NousResearch/hermes-agent (Public · Python)
+├── 139 [F] ai-sec-resources <- Arcanum-Sec/ai-sec-resources (Public · HTML)
+├── 140 [F] ai-chat <- pick-of-gods/ai-chat (Public · TypeScript)
+├── 141 [F] open-design <- nexu-io/open-design (Public · TypeScript)
+├── 142 [F] kingwenfinance <- pick-of-gods/kingwenfinance (Public · Python)
+├── 143 [F] archive-org-api-knowledge-base <- LARIkoz/archive-org-api-knowledge-base (Public)
+├── 144 [F] Core-Framework <- Open-RSC/Core-Framework (Public · Java)
+├── 145 [F] lore-desktop <- NorfolkNChance/lore-desktop (Public · Rust)
+├── 146 [F] experimental-projects <- trizen/experimental-projects (Public · Perl)
+├── 147 [F] ai-video-avatar <- VinceBmmrt/ai-video-avatar (Public · TypeScript)
+├── 148 [F] video <- ed-donner/video (Public · TypeScript)
+├── 149 [F] ScopeEdit <- lab-klc/ScopeEdit (Public · Python)
+├── 150 [F] world-of-claudecraft <- NorfolkNChance/world-of-claudecraft (Public · TypeScript)
+├── 151 [F] TES5Edit <- TES5Edit/TES5Edit (Public · Pascal)
+├── 152 [F] vla-lab <- lz-googlefycy/vla-lab (Public · Python)
+├── 153 [F] CheXmix <- StanfordMIMI/CheXmix (Public · Python)
+├── 154 [F] neuprintr <- natverse/neuprintr (Public · R)
+├── 155 [F] cuda-gdb <- NVIDIA/cuda-gdb (Public · C)
+├── 156 [F] NemoClaw <- mainroach/NemoClaw (Public · TypeScript)
+├── 157 [F] evals <- openai/evals (Public · Python)
+├── 158 [F] personal-website <- NorfolkNChance/personal-website (Public · Python)
+├── 159 [F] openai-realtime-solar-system <- openai/openai-realtime-solar-system (Public · TypeScript)
+├── 160 [F] GeoMotionGPT <- pick-of-gods/GeoMotionGPT (Public · Python)
+├── 161 [F] OpenClaw-Kimi2.5-FreeAPI <- Ryuki0x1/OpenClaw-Kimi2.5-FreeAPI (Public · Shell)
+├── 162 [F] K2-Vendor-Verifier <- MoonshotAI/K2-Vendor-Verifier (Public · Python)
+├── 163 [F] oeis-tui <- hako/oeis-tui (Public · Rust)
+├── 164 [F] tensorflow-riemopt <- master/tensorflow-riemopt (Public · Python)
+├── 165 [F] viral-twin <- pick-of-gods/viral-twin (Public)
+├── 166 [F] Miles <- cheneyYoon/Miles (Public · Python)
+├── 167 [F] collisionvis <- splash-damage/collisionvis (Public · C++)
+├── 168 [F] mesop-app <- NorfolkNChance/mesop-app (Public · Python)
+├── 169 [F] SimTeach <- chrisma71/SimTeach (Public · TypeScript)
+├── 170 [F] Red9_StudioPack_Python3 <- markj3d/Red9_StudioPack_Python3 (Public · Python)
+├── 171 [F] NorfolkNChance.github.io <- NorfolkNChance/NorfolkNChance.github.io (Public · HTML)
+├── 172 [F] Upgraded-Depth-Anything-V2 <- MackinationsAi/Upgraded-Depth-Anything-V2 (Public · Python)
+├── 173 [F] spinningup <- openai/spinningup (Public · Python)
+├── 174 [F] point-e <- openai/point-e (Public · Python)
+├── 175 [F] glide-text2im <- openai/glide-text2im (Public · Python)
+├── 176 [F] Red9_StudioPack <- markj3d/Red9_StudioPack (Public · Python)
+├── 177 [F] diffusion <- hojonathanho/diffusion (Public · Python)
+├── 178 [F] runelite-open-osrs <- open-osrs/runelite (Public · Java)
+├── 179 [F] Automatic-Number-Plate-Recognition-Using-YOLOv7-EasyOCR <- ANPR-ORG/Automatic-Number-Plate-Recognition-Using-YOLOv7-EasyOCR (Public · Jupyter Notebook)
+├── 180 [F] plugins <- open-osrs/plugins (Public · Java)
+├── 181 [F] gta-re3 <- hackpascal/gta-re3 (Public · C++)
+├── 182 [F] fairseq-1 <- RayeRen/fairseq-1 (Public · Python)
+├── 183 [F] GrNet <- zhiwu-huang/GrNet (Public · MATLAB)
+├── 184 [F] tradigitools <- markj3d/tradigitools (Public · C++)
+├── 185 [F] wavenet_vocoder <- RayeRen/wavenet_vocoder (Public · Python)
+├── 186 [F] translators <- fcheslack/translators (Public · JavaScript)
+├── 187 [F] tensor2tensor <- RayeRen/tensor2tensor (Public · Python)
+└── 188 [F] training-exercise <- pick-of-gods/training-exercise (Public · JavaScript)
+
+SUMMARY: 57 Source [S] + 131 Forked [F] = 188 Total Repositories | View: Kbro1989 (https://github.com/Kbro1989?tab=repositories)
+
+====================================================================================================
