@@ -861,5 +861,5 @@ The evidence matrix classifies all engineering records across four distinct epis
 SUMMARY: 62 Source [S] + 126 Forked [F] = 188 Total Repositories | View: Kbro1989 (https://github.com/Kbro1989?tab=repositories)
 
 ====================================================================================================
-</details></summary>
+<details><summary>
 
