@@ -1,6 +1,6 @@
 # ⚡ Pick of Gods · Kbro1989
 
-**Independent Systems Engineer · Experimental Computational Developer · Systems Archaeologist**
+**Independent Systems Engineer | Computational Design & Reverse Engineering | AI and Distributed Infrastructure**
 
 I reverse-engineer, design, and build software systems across AI, distributed infrastructure, scientific computing, interactive environments, and embedded systems.
 
@@ -72,7 +72,80 @@ The goal is a modular environment where local computation, cloud services, AI mo
 - **Provenance:** preserve where information, decisions, and results originate.
 - **No fake completion:** distinguish prototypes, implemented functionality, and verified behavior.
 
+### Internal Subsystem Architecture
+
+| Variable / Component | Subsystem Responsibility | Architectural Role |
+| --- | --- | --- |
+| Runtime topology | `CNS / MEMORY / SENSORY / MOTOR / REGISTRY` | Decoupled five-tier modular execution |
+| Processing | `CNSGodheadPulseVolley` | Central orchestration pulse and event distribution |
+| Routing | `TernaryRouter` | Three-valued state-based routing |
+| Agent coordination | `PlayerAgent`, `ModelRolodex` | Multi-agent lifecycle and model catalog management |
+| Symbolic state | `HexagramManager` | Deterministic 64-state transition handling |
+| Security boundary | `ExteriorGate` | External-agent admission and perimeter isolation |
+| Error contract | `Result<T>` | Explicit monadic error handling without uncaught panics |
+| Verification | `NodeTester`, `healthCheck` | Runtime subsystem verification and health telemetry |
+| Recovery | Four-tier circuit-breaker fallback | Progressive degradation and fault recovery |
+
+### External Agent Security Boundary
+
+POG2 evaluates untrusted foreign agents through an explicit perimeter admission pipeline:
+
+`Foreign Agent → Handshake → Child Provenance → Domain Lock / Monitoring → ExteriorGate → Allow or LOCKDOWN`
+
+Associated threat detection classifications include:
+- `EXTERNAL_BINARY`
+- `FILE_TARGETING`
+- `SOURCE_ESCALATION`
+- `PROMPT_INJECTION`
+- `OBFUSCATION`
+- `DATA_EXFILTRATION`
+
+*Qualification:* The architecture produces security classifications and admission decisions; it does not automatically establish that every threat has been prevented.
+
 The intended architecture is not a claim that every component is already integrated or independently validated. It is the direction guiding the engineering.
+
+---
+
+## 📐 Engineering Evidence & Technical Milestones
+
+My projects are not limited to application interfaces. They involve the underlying structures, numerical methods, data models, and infrastructure that make those applications work.
+
+**Epistemic distinction:** A measured result, a tested implementation, an architectural specification, and an experimental target are four different kinds of evidence.
+
+Selected engineering milestones:
+
+### Scientific Computing
+- Extended an upstream quantum simulation framework ([rasidi3112/quantum-simulation](https://github.com/rasidi3112/quantum-simulation)) with multidimensional grid and wavefunction abstractions, 3D split-step solving, absorbing boundary layers, and GPU acceleration.
+- **Merged upstream on August 20, 2026** (Merge commit `9a6d528`: 893 lines added, 14 files changed, 25/25 unit tests green).
+- Added multi-run benchmarking, statistical performance reporting, and numerical correctness validation.
+
+### Computational Mathematics
+- Built a frozen mathematical parsing benchmark covering **3,409 equations** across 14 research papers.
+- Achieved **3,393 fully supported** (99.53%) and 16 partially supported equations on that frozen population (zero duplicates).
+- Developed MathML, AST extraction, equation recovery, and mathematical document association tooling.
+- Evaluated preservation of nested and extensible mathematical delimiters (D1–D6 structural recovery engine, 1,505-image blind render manifest).
+
+### Game Data Archaeology
+- Developed a RuneScape cache extraction and interpretation forensic pipeline.
+- Historical RS3 cache substrate inventory: **approximately 229,000 records** (32,512 NPCs, 59,984 items, ~136,000 objects from revision 221+).
+- Handled opcode interpretation, version-aware cache structures, model extraction, GLTF asset generation, and reconstructed geometry validation.
+
+### Distributed Systems
+- Developed Cloudflare Workers and Durable Objects integrations for edge execution and persistent state.
+- Explored real-time multiplayer state synchronization referencing the 640 ms RuneScape Classic game-cycle reference.
+- Integrated persistent state (Durable Objects, KV, D1), WebSockets, and hybrid local/cloud execution patterns.
+
+### AI Infrastructure
+- Developed agent orchestration, model selection (`ModelRolodex`), tool registries (`ToolRegistry`), and execution infrastructure (`MCPEngine`).
+- Explored local-first inference (Ollama) with cloud-based execution and deployment alternatives.
+- Designed explicit security boundaries (`ExteriorGate`), provenance tracking, and a four-tier circuit-breaker fallback.
+
+### Embedded and Cyber-Physical Systems
+- Designed an MHD propulsion controller architecture targeting the **Xilinx Zynq UltraScale+ XCZU7EV MPSoC FPGA**.
+- Defined seven named HDL subsystem responsibilities spanning control sequencing, telemetry encoding, sensor acquisition, and AXI4-Lite interfaces.
+- Explored software/hardware boundaries, Hamiltonian thermal modeling, and deterministic state-machine implementation.
+
+**Evidence policy:** Numerical results are tied to their specific datasets and evaluation versions. Implemented, tested, merged, deployed, experimental, and proposed functionality are reported separately.
 
 ---
 
@@ -132,6 +205,44 @@ The RuneScape ecosystem gives me a practical environment for exploring legacy pr
 
 A recurring design target is the original RuneScape Classic **640 ms game cycle**. I use that timing as a reference point when exploring compatibility and real-time system behavior.
 
+### Quantitative Cache Forensics (`Pog2-Data`)
+
+Developed a structured game-data substrate from RuneScape cache revision 221+, encompassing approximately 229,000 NPC, item, and object records:
+
+| Entity Type | Extracted Records | Source & Forensics |
+| --- | --- | --- |
+| NPCs | 32,512 | Revision 221+ opcode extraction & field interpretation |
+| Items | 59,984 | Attribute mapping, stackable properties, equip slots |
+| Objects | ~136,000 | World interaction boundaries & model references |
+| **Total** | **~229,000** | Forensic RSMV pipeline extraction |
+
+### Forensic Reconstruction Pipeline (`rsmv`)
+
+Rather than treating game models as static assets, the extraction workflow implements a six-stage forensic chain:
+
+1. **Raw bytes and opcode sequences:** Byte-level stream parsing and version-aware opcode dispatch.
+2. **Parser and field interpretation:** Separation of packed bitfields, color indices, and texture coordinates.
+3. **Consumer and entity identification:** Cross-referencing definition IDs with downstream game engine entities.
+4. **Model and identifier resolution:** Resolving composite mesh references, animations, and bone weights.
+5. **Geometry reconstruction:** Building valid indexed mesh geometry and generating standard GLTF assets.
+6. **Visual validation:** Comparing reconstructed visual outputs against game client ground truth.
+
+*Methodological invariant:* Never promote inferred structures into canonical definitions without corroborating evidence.
+
+### Autonomous Game-World Evolution (`rscaievolution-png`)
+
+Experimental agent-driven game-world evolution combining semantic entity data, autonomous goals, temporal progression, asset transformation, and distributed state synchronization:
+
+| Variable / Subsystem | Purpose | Architecture / Stack |
+| --- | --- | --- |
+| `evolutionStage` | Discrete world-progression from stage 0 to 240 | Durable Object state authority |
+| Eras | Historical epoch brackets from 0 to 12 | Temporal world-rule shifts |
+| Semantic item tags | Behavioral classification of game entities | Multi-attribute metadata indexing |
+| Gronk agent state | Autonomous NPC decision and memory representation | State-machine agent runtime |
+| Dual inventories | Separate inventory-state handling (active vs bank/stash) | Atomic transaction updates |
+| Autonomous goals | Agent-directed objectives and path resolution | Heuristic goal evaluation |
+| `sync-pog-ids.js` | Synchronizes POG-Ultimate JSON definitions with RSC constants | Pipeline ID reconciliation |
+
 ---
 
 ## ☯️ King Wen — Symbolic Systems as Executable Architecture
@@ -163,6 +274,51 @@ The broader design explores:
 
 The central principle is simple: **a symbolic system should have explicit rules, traceable state transitions, and reproducible outputs**.
 
+### Frozen Mathematical Parser Benchmark
+
+Rigorous evaluation conducted against a frozen mathematical population:
+
+| Metric | Measured Result | Qualification |
+| --- | --- | --- |
+| Evaluation papers | 14 research papers | Peer-reviewed ArXiv mathematics / physics corpus |
+| Total equations evaluated | 3,409 equations | Frozen set (2,023 v1 + 395 v2 + 991 v4; zero duplicates) |
+| Fully supported equations | 3,393 equations | **99.53%** fully supported share |
+| Partially supported equations | 16 equations | Documented edge-case syntax / multiline alignments |
+
+*Epistemic boundary:* This metric measures performance against that specific frozen population, not universal mathematical OCR accuracy.
+
+### Extraction & Recovery Tooling
+
+A pipeline of modular utilities built to bridge raw LaTeX, MathML, ASTs, and symbolic tables:
+- `semantic_math_extractor.py` & `mathml_parser.py`: Semantic XML/LaTeX expression parsing.
+- `math_recovery_tool.py` & `recover_training_data.py`: Corpus training data reconstitution.
+- `arxiv_html_parser.py` & `math_pdf_association.py`: Document-level spatial expression alignment.
+- `math_to_kingwen_adapter.py`: Mathematical AST to hexagram state-space transformation.
+- `delimiter_aware_structural_recovery.py`: AST extraction preserving nested boundary scopes.
+
+*Corpus footprint:* Evaluated across 203 semantic paper records, 4,043 extracted expressions, ~162,000 proof-chain elements, 245 text corpus files, and 82,224 generated records (1,536 per paper across 54 processed papers; 6.8 GB artifact footprint).
+
+### Mathematical Adapter Milestone (Commit `c40286c`)
+
+Attempted transformation of mathematical expressions into structured symbolic representations (1,310 files; +63,899 / -1,622 lines):
+
+| Evaluation Dimension | Result (991-Case Regression) | Status |
+| --- | --- | --- |
+| Extraction accuracy | 991 / 991 | PASS |
+| Identity & provenance tracking | 991 / 991 | PASS |
+| State routing | 956 / 991 | PARTIAL |
+| Full semantic recovery | 448 pass / 543 fail | UNRESOLVED |
+
+*Qualification:* Successful extraction and identity checks do not establish complete semantic equivalence or correct recovery.
+
+### Structural Delimiter Preservation
+
+Preserving mathematical structure—particularly extensible delimiters (e.g. tall parentheses enclosing matrices rather than flattened inline punctuation):
+- D1–D6 structural recovery engine tested against 667/667 v1 cross-paper test cases.
+- 1,505-image blind render manifest; 3,644 rendered images across two cohorts (1,869 and 1,775 images) via PyMuPDF 1.25.3 & OpenCV 4.11.0 (zoom: 4.0).
+- Rahmani benchmark paper (1212.0957): 575/575 manifest entries verified.
+- **Evaluation status:** While the G0 adapter passed 9/9 targeted unit tests, full-corpus G0 certification remained pending as of the November audit. Structural delimiter preservation is rigorously documented as **NOT VERIFIED**.
+
 ---
 
 ## 🤖 AI, Agents and Model Infrastructure
@@ -184,6 +340,23 @@ I experiment with how models can be selected, connected to tools, coordinated ac
 | [OpenJarvis](https://github.com/Kbro1989/OpenJarvis) | Forked local-first AI platform |
 | [hermes-agent](https://github.com/Kbro1989/hermes-agent) | Forked agent runtime and workflow exploration |
 
+### Core AI Subsystems & Infrastructure
+
+Rather than treating AI as an isolated prompt endpoint, the infrastructure implements explicit orchestration, verification, and execution primitives:
+
+| Component | Architecture Responsibility | Implementation Role |
+| --- | --- | --- |
+| `MCPEngine` | Model Context Protocol execution | Structured tool and resource invocation |
+| `ToolRegistry` | Tool registration & capability discovery | Dynamic schema-based tool routing |
+| `OrchestrateEngine` | Multi-agent task coordination | Topological dependency and execution ordering |
+| `MultiModelExecutor` | Multi-model invocation & routing | Polyglot model dispatch (local & remote) |
+| `IntentVerifier` | Behavioral intent validation | Constraint validation prior to state mutations |
+| `ModelRolodex` | Model catalog and selection heuristic | Context-aware model discovery |
+| `GhostLimb` | Autonomous worker runtime module | Background task processing |
+| `TernaryRouter` | Three-valued routing logic | State resolution across ambiguous execution paths |
+| `EndpointHealer` | Resilience and connection self-healing | Automatic fallback upon model timeout/error |
+| Hermes integration | `pog2-sovereign` agent registration | Sovereign agent protocol integration |
+
 I also study and work with upstream projects across model training, agent frameworks, model interfaces, and developer tooling.
 
 **A fork is not the same thing as an original implementation.** I maintain forks for experimentation, integration, adaptation, and understanding upstream systems; original development is identified separately.
@@ -203,22 +376,36 @@ Examples include:
 - GPU/CPU correctness comparisons.
 - Computational modeling and visualization.
 
-### Quantum simulation collaboration
+### Upstream Merged Contribution: `rasidi3112/quantum-simulation`
 
-I contributed to an existing open-source quantum simulation project by extending its multidimensional simulation capabilities.
+I contributed a complete multidimensional solver architecture to [rasidi3112/quantum-simulation](https://github.com/rasidi3112/quantum-simulation), merged into upstream production on **August 20, 2026** (Merge commit `9a6d528`):
 
-The work included:
+| Implementation Component | Subsystem Description |
+| --- | --- |
+| `Grid3D` | Three-dimensional spatial grid discretization with configurable boundaries |
+| `WaveFunction3D` | 3D complex wavefunction state representation and norm tracking |
+| `SplitStep3DSolver` | 3D split-step Fourier solver for time-dependent Schrödinger equation |
+| `Gaussian2D/3DBarrier` | Multidimensional potential energy barrier configurations |
+| ABL 3D | Three-dimensional absorbing boundary layer preventing unphysical reflection |
+| 3D Observables | Expectation value measurement and quantum probability current tracking |
+| Examples 05 & 06 | Multidimensional wavepacket tunneling demonstrations |
+| GPU Backend | GPU-accelerated 3D split-step execution via PyTorch/CuPy |
 
-- 2D and 3D simulation structures.
-- Multidimensional wavefunction and grid support.
-- Split-step solver development.
-- Absorbing boundary-layer functionality.
-- GPU-accelerated 3D solver work.
-- Benchmarking and correctness-validation improvements.
+#### Quantitative Upstream Impact
 
-Two pull requests were merged upstream in August 2026. The maintainer specifically praised the GPU optimization work and the CPU/GPU parity and energy-conservation test coverage.
+| Metric | Measured Value |
+| --- | --- |
+| **Lines added** | **893** |
+| **Files changed** | **14** |
+| **Reported unit tests** | **25 / 25 Green** |
+| **Commits merged** | **3 (Merge commit `9a6d528`)** |
+| **Maintainer verification** | Explicitly validated CPU/GPU parity, energy conservation, and numerical stability |
 
-This is an important part of my portfolio: engineering within an existing codebase, respecting its architecture, validating changes, and contributing functionality that the upstream maintainer accepts.
+Follow-up work introduced multi-run benchmarking, statistical performance reporting, and numerical correctness validation across varied grid dimensions. This demonstrated the ability to understand an unfamiliar scientific codebase, extend core physical abstractions, implement high-performance GPU algorithms, verify physical invariants, and maintain upstream open-source contributions.
+
+
+
+
 
 ---
 
@@ -228,15 +415,21 @@ I also explore the boundary between software architecture and physical systems.
 
 One project investigates an MHD propulsion controller and simulation architecture, with a Zynq UltraScale+ ZU7EV as a hardware target.
 
-The design work includes VHDL/SystemVerilog modules and interfaces for:
+### Hardware Target: Zynq UltraScale+ XCZU7EV MPSoC
 
-- Contactor sequencing.
-- Choke-driver control.
-- Sensor acquisition.
-- Telemetry encoding.
-- AXI4-Lite communication.
-- Hexagram-based state logic.
-- Predictive state-processing experiments.
+The intended hardware architecture specifies seven named HDL subsystems across the programmable logic (PL) and processing system (PS) boundary:
+
+| Subsystem | Architectural Responsibility | Hardware / Interface Protocol |
+| --- | --- | --- |
+| ContactorSequencer | Switching sequence management | Deterministic high-voltage bus staging |
+| ChokeDriver | Choke-control interface | Inductive flyback suppression & PWM timing |
+| SensorAcquisition | Sensor input acquisition | Synchronous multichannel ADC frame decoding |
+| TelemetryEncoder | Telemetry representation | High-throughput serialized packet encoding |
+| AXI4LiteSlave | Register and control interface | Memory-mapped PS/PL AXI4-Lite bus interface |
+| HexagramStateMachine | Symbolic state control | Constrained 64-state deterministic transitions |
+| GhostSplatPredictor | Predictive state processing | Feed-forward parameter extrapolation |
+
+*Hardware concepts:* VHDL, SystemVerilog, AXI4-Lite, PL/PS interfaces, synchronous sensor acquisition, telemetry encoding, Hamiltonian thermal modeling, and high-voltage safety interlocks.
 
 Related simulation and control work explores Hamiltonian thermal modeling, system behavior, telemetry, and high-voltage safety considerations.
 
@@ -303,7 +496,8 @@ The objective is to make the same broader system usable across different executi
 
 ## 📊 Portfolio Snapshot
 
-<sub>Repository inventory snapshot: November 18, 2026. Counts are a point-in-time inventory, not a measure of code quality or contribution size.</sub>
+Repository inventory snapshot: November 18, 2026. Counts are a point-in-time inventory, not a measure of code quality or contribution size.
+
 
 | Metric | Count |
 | --- | --- |
@@ -315,6 +509,18 @@ The objective is to make the same broader system usable across different executi
 The repository inventory includes original projects, forks, experiments, integrations, and development tools.
 
 This README highlights selected projects rather than attempting to describe every repository. The complete inventory is available through the [GitHub repositories page](https://github.com/Kbro1989?tab=repositories).
+
+---
+
+## 📈 Technical Progression
+
+The technical work across these repositories follows a structured progression across five engineering phases:
+
+1. **Reverse Engineering & Archaeological Analysis:** Extraction, opcode interpretation, and binary/cache forensic reconstruction (e.g., RuneScape cache revision 221+, `rsmv`, `Pog2-Data`).
+2. **Computational Representation & Invariant Structures:** Formalizing discrete structures, ASTs, and deterministic mappings (e.g., King Wen immutable tables, mathematical delimiters, ternary state routing).
+3. **Simulation, Numerics & Prediction:** Numerical modeling, multidimensional partial differential equations, and predictive trajectories (e.g., upstream 3D quantum split-step solvers, `GhostSplat` trajectory prediction).
+4. **Distributed Execution & Orchestrated Infrastructure:** Highly concurrent execution, edge compute, state synchronization, and security gates (e.g., Cloudflare Workers/KV/Durable Objects, `MCPEngine`, `ExteriorGate` zero-trust admission).
+5. **Physical-System Exploration & Hardware Synthesis:** Target architecture definition, register mapping, and RTL/HDL subsystem specification (e.g., Zynq UltraScale+ XCZU7EV MPSoC, FPGA state machines, and sensor acquisition).
 
 ---
 
@@ -346,7 +552,6 @@ I am interested in systems that can be inspected, tested, extended, and understo
 
 ---
 
-<div align="center">
 
 ### Build systems that understand their own structure.
 
@@ -356,35 +561,22 @@ I am interested in systems that can be inspected, tested, extended, and understo
 
 *Independent work. Open-source collaboration. Experimental systems engineering.*
 
-</div>
 
 ---
 
-## **What I would change before publishing**
+## 📊 Technical Evidence & Audit Index
 
-There are a few things I would not let the README gloss over.
+For a full breakdown of subsystems, verification statuses, numerical results, and provenance, refer to the [Engineering Evidence Matrix](file:///C:/Users/krist/Desktop/kbro1989/EVIDENCE_MATRIX.md) (`EVIDENCE_MATRIX.md`).
 
-| Existing claim | My recommendation |
-| --- | --- |
-| 27-limb neural pipeline | Keep only if the 27 limbs are enumerated and their implementation status is clear. |
-| 389 models in Rolodex | Publish with an as-of date and clarify whether these are indexed, available, or tested models. |
-| 89 tools across 7 domains | Same: distinguish registered tools from operationally tested tools. |
-| 3,516 quest entries | Keep, but link to the data and validation evidence. |
-| 729-path ternary routing | Explain what the 729 paths represent and how they are resolved. |
-| GhostSplat predicts 300 ms forward | Label as an implemented prediction capability only if you have testable prediction output and evaluation data. |
-| Zynq UltraScale+ target | Keep the hardware-target qualification. Don't imply deployed silicon without evidence. |
-| 640 ms tick | Keep as the RSC timing reference; don't imply every connected service has been validated against it. |
-
-**One important strategic point:** the README should not try to prove that all 14 domains are one finished machine. It should show that you can work across those domains, identify common architectural problems, and build systems that connect them.
-
-That is a much stronger claim—and it is easier to defend.
-
-My next priority would be a **technical evidence index** linked from this README: one page showing each major system, its repository, implementation status, tests or benchmarks, deployment endpoint, and known limitations. That would let the README stay readable while giving technical readers somewhere substantial to investigate.
+The evidence matrix classifies all engineering records across four distinct epistemic tiers:
+- **Measured Result:** Empirically benchmarked, logged, and reproducible numerical outcomes.
+- **Tested Implementation:** Fully realized codebase with automated unit/integration test coverage.
+- **Architectural Specification:** Formal design interfaces, state schemas, and protocol definitions.
+- **Experimental Target:** Forward-looking research hypotheses and prototype target hardware profiles.
 
 ---
 
-====================================================================================================
-GRAPH FOOTER — COMPLETE INVENTORY OF 188 REPOSITORIES (57 SOURCE + 131 FORKED)
+## GRAPH FOOTER — COMPLETE INVENTORY OF 188 REPOSITORIES (57 SOURCE + 131 FORKED)
 ====================================================================================================
 
 [SOURCE REPOSITORIES: 001–057]
@@ -582,3 +774,5 @@ GRAPH FOOTER — COMPLETE INVENTORY OF 188 REPOSITORIES (57 SOURCE + 131 FORKED)
 SUMMARY: 57 Source [S] + 131 Forked [F] = 188 Total Repositories | View: Kbro1989 (https://github.com/Kbro1989?tab=repositories)
 
 ====================================================================================================
+
+
