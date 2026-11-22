@@ -538,7 +538,7 @@ Repository inventory snapshot: November 18, 2026. Counts are a point-in-time inv
 
 | Metric | Count |
 | --- | --- |
-| Total repositories | 62 |
+| Total repositoriesrec | 188 | ; [193 @ present] 
 | Source repositories | 57 |
 | Forked repositories | 131 |
 | Principal technical areas | 14 |
